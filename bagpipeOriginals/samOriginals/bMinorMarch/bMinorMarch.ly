@@ -1,11 +1,11 @@
 \version "2.19.80"
 
 \include "bagpipe.ly" 
-\include "/home/sam/Documents/frescobaldi/BagPipeTunes/include/BWB_Bagpipe.ly"
-\include "/home/sam/Documents/frescobaldi/BagPipeTunes/include/score_settings.ly"
-\include "/home/sam/Documents/frescobaldi/BagPipeTunes/include/gitDefinitions.ily"
+\include "../../../include/BWB_Bagpipe.ly"
+\include "../../../include/score_settings.ly"
+\include "../../../include/gitDefinitions.ily"
 
-\include "/home/sam/Documents/frescobaldi/Originals/Hornpipe/bMinorMarch-voices.ly"
+\include "./bMinorMarch-voices.ly"
 filename = "~/bMinorMarch.ly"
 tunesetVersion = "V 1"
 source = "Sam Wiley"  %Argyll & Sutherland Highlanders
@@ -14,7 +14,7 @@ source = "Sam Wiley"  %Argyll & Sutherland Highlanders
 
 \header { 
           title = "B Minor March"
-          composer = "Sam Wiley"
+          composer = "yodofizzy"
           arranger = ""
           meter = "" 
           %tagline = \markup { \filename  " " \source " "  git Version: \gitCommitish  Committed: \gitDateTime

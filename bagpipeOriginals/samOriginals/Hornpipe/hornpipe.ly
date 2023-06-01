@@ -1,11 +1,11 @@
 \version "2.19.80"
 
 \include "bagpipe.ly" 
-\include "/home/sam/Documents/frescobaldi/BagPipeTunes/include/BWB_Bagpipe.ly"
-\include "/home/sam/Documents/frescobaldi/BagPipeTunes/include/score_settings.ly"
-\include "/home/sam/Documents/frescobaldi/BagPipeTunes/include/gitDefinitions.ily"
+\include "../../../include/BWB_Bagpipe.ly"
+\include "../../../include/score_settings.ly"
+\include "../../../include/gitDefinitions.ily"
 
-\include "/home/sam/Documents/frescobaldi/Originals/Hornpipe/hornpipe-voices.ly"
+\include "./hornpipe-voices.ly"
 filename = "~/hornpipe.ly"
 tunesetVersion = "V 1"
 source = "Sam Wiley"  %Argyll & Sutherland Highlanders

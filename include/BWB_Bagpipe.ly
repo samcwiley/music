@@ -112,6 +112,7 @@ bamdre  = { \pgrace { G32[ d G e G f G ] } }
 % don't all start with a gracenote and at least one part does.
 grghide = {\hideNotes { \pgrace { \small g32 }} \unHideNotes}
 dblhide = {\hideNotes { \pgrace { \small g32 [ d e ] }} \unHideNotes}
+hdblhide = {\hideNotes { \pgrace { \small g32 [d] }} \unHideNotes }
 
 % a half doubling on C with e-d gracenotes -- see Kilworth Hills part 3 
 % from the Pipe Teacher's Assistant Vol 1. 
