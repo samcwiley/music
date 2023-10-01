@@ -24,7 +24,7 @@ voltaTwo = \markup  { \hspace #20 \text \italic \fontsize #+5 { "2" }  }
 
 
 \header { 
-          title = "Traditional Set"
+          title = "Traditional Set Harmonies"
           composer = ""
           arranger = ""
           meter = "" 
@@ -110,6 +110,12 @@ tagline = \markup { \filename  "  " \source "  "
                 \global
                 \OldRusticBridgeAPB
               }
+          >>
+          \new Staff = "GHB" <<
+            \new Voice {
+              \global
+              \OldRusticBridgeHarmonies
+            }
           >>
         >>
         \layout { \ScoreLayout

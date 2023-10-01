@@ -75,7 +75,7 @@ DreamValleyOfGlendaruelHarmonies =
                   \grg d8. [e16] \grg f4 \thrwd d4 |
                   \grg d8. [e16] \grg f4 \birl a4 |
                   \grg c8. [d16] \dble e4. d8 |
-                  \grg a8 [b8] \thrwd d4 \gre c4 |
+                  \grg a8 [\grd b8] \thrwd d4 \gre c4 |
                   \break
                   \grghide A8. [g16] \grA f4 \thrwd d4 |
                   \grg f8. [e16] \thrwd d4 \grG a4 |
