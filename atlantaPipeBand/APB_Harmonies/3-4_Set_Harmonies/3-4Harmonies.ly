@@ -68,7 +68,7 @@ voltaTwo = \markup  { \hspace #20 \text \italic \fontsize #+5 { "2" }  }
           
                 \header{
           piece = "My Dream Valley on the Road to Glendaruel"
-          opus = ""
+          opus = "Traditional, Arr. Iain MacHarg"
         }
 }
 
@@ -105,9 +105,11 @@ voltaTwo = \markup  { \hspace #20 \text \italic \fontsize #+5 { "2" }  }
           
                 \header{
           piece = "Bloody Fields of Flanders"
-          opus = ""
+          opus = "J. MacLellan, Dunoon, Arr APB"
         }
 }
+
+\pageBreak
 
 \score {
 	\new GrandStaff <<
@@ -128,7 +130,7 @@ voltaTwo = \markup  { \hspace #20 \text \italic \fontsize #+5 { "2" }  }
           
                 \header{
           piece = "My Home Town"
-          opus = ""
+          opus = "J. MacLellan, Dunoon, Arr APB, Harmonies J. Finnegan"
         }
 }
 

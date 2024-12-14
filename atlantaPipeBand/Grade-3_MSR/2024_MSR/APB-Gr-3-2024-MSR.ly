@@ -12,7 +12,7 @@ source = "March from Roddy MacLeod, Strathspey from Donald MacLeod Book 4, Reel 
 \include "./APB-Gr-3-2024-MSR-Voices.ly"
 
 \header { 
-          title = "APB Grade 3 2024 MSR"
+          title = "APB Grade 3 2024 MSR v2"
           composer = ""
           arranger = ""
           meter = "" 
@@ -101,12 +101,12 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
 		\new Staff = "GHB" <<
 			\new Voice {
 				\global
-				\MacAnIrish
+				\HighlandHarry
 			}
 		>>
 	>>
-                \header { piece = "Mac an Irish" 
-                          opus = "Traditional, Pts. 3 & 4 Alex MacIver, Arr APB" }
+                \header { piece = "Highland Harry" 
+                          opus = "Traditional" }
                 \layout { \ScoreLayout }
 }
 

@@ -85,6 +85,49 @@ MrsMaryAndersonOfLochranza =
    }
 }
 
+HighlandHarry = {
+  \time 4/4
+  \tempo 4 = 110
+  \bar ".|:"
+  \repeat volta 2 {
+    \grg a4 \taor a8. [\grd b16] \grg a4 \taor a8. [\grd b16] |
+    \dblg g8. [e16] \thrwd d8. [b16] \grg G8. [\grd G16] \gre G8. [g16] |
+    \hdble e8. [d16] \grg e16 [f16 g8] \dblA A4 \grip A8. [g16] |
+    \grA e16 [f16 g8] \thrwd d8. [b16] \grg a4 \taor a8.
+    \alternative {{e16]}{\grd b16}} 
+    \break
+  }
+  \repeat volta 2 {
+    \set Score.currentBarNumber = #5
+    \grip A4 \grg A4 \grip A4 \grg A8. [e16] |
+    \dblg g8. [A16] g16 [f16 e8] \thrwd d8. [\grg b16] \grd G8. [g16] |
+    \hdble e8. [d16] \grg e16 [f16 g8] \dblA A4 \grip A8. [g16] |
+    \grA e16 [f16 g8] \thrwd d8. [b16] \grg a4 \taor a8. [\grd b16]
+    \break
+  }
+  \repeat volta 2 {
+    \set Score.currentBarNumber = #9
+    \dble e8. [a16] \gbirl a4 \dble e8. [d16] \grg e16 [f16 g8] |
+    \hdblb b16 \gre G8. \grg G16 [\grd G16 \gre G8] \dblb b16 [\gre a8.] \grg b16 [c16 d8] |
+    \dble e8. [a16] \gbirl a4 \dble e8. [d16] \grg e16 [f16 g8] |
+    \dblA A8. [e16] \dblg g8. [b16] \grg a4 \taor a8. 
+    \alternative {{\grd b16}{e16}}
+    \break
+  }
+  \set Score.currentBarNumber = #13
+  \dblA A4 e16 [f16 g8] \dblA A4 \grip A8. [e16] |
+  \dblg g4 \grA b16 [c16 d8] \dblg g8. [A16] \hdblf f8. [d16] |
+  \dblA A4 e16 [f16 g8] \dblA A4 \grip A8. [e16] |
+  \dblg g8. [e16] \thrwd d8. [b16] \grg a4 \taor a8. [e16] |
+  \break
+  \dblA A4 e16 [f16 g8] \dblA A4 \grip A8. [e16] |
+  \dblg g4 \grA b16 [c16 d8] \dblg g8. [A16] \hdblf f8. [d16] |
+  \dblA A4 e16 [f16 g8] \grA f16 [g16 A8] \hdble e8. [f16] |
+  \dblg g8. [e16] \thrwd d8. [b16] \grg a4 \taor a4 \bar "|." 
+}
+
+
+
 %**************************************************************
 
 MacAnIrish = {
@@ -114,7 +157,7 @@ MacAnIrish = {
  \repeat volta 2 {
    \grg a8. [b16] \thrwd d8. [a16] \grg b16 [\grd a8.] \thrwd d4 |
    \grg a8. [b16] \thrwd d8. [e16] \grg f8. [e16] \grg f16 [A8.] |
-   \grg a8. [b16] \thrwd d8. [a16] \grg b16 [\grd a8.] \thrwd d8. [e16] |
+    a8. [b16] \thrwd d8. [a16] \grg b16 [\grd a8.] \thrwd d8. [e16] |
    \grg f8. [e16] d16 [\gre b8.] \grg a4 \wbirl a4 | \bar ":|.-.|" 
  }
  \break
@@ -264,45 +307,45 @@ FionaMacLeod =
   \tempo 2 = 76
   \bar ".|-|"
   \grg b16 [\grd b8. \grg c16 e8.] \grg f8. [e16] \dblc c4 |
-  \grg b8. [f16 \gre f8. e16] \dblf f4 \dblA A4 |
+  \grg b8. [f16 \gre f8. e16] \grg f4 \dblA A4 |
   a16 [\grd a8. \grg c16 f8.] \dble e8. [a16] \dblc c4 |
   \grg a8. [e16 \gra e8. c16] \dble e4 f4 |
   \break
   \grg b16 [\grd b8. \grg c16 e8.] \grg f8. [e16] \dblc c4 |
-  \grg b8. [f16 \gre f8. e16] \dblf f4 \gre e8. [f16] |
+  \grg b8. [f16 \gre f8. e16] \grg f4 \grg e8. [f16] |
   A8. [e16 \grg f16 A8.] \hdblf f4 \grg e8. [c16] |
   \grg b16 [\grd b8. \grg c16 \grd a8.] \grg b8. [\grd b16 \gre b8. \grd c16] \bar "|.-b"
   \break
   
-  \dblf f4 \grg f8. [e16] \grg c16 [e8.] \dblf f4 |
-  \grg b8. [f16 \gre f8. e16] \dblf f4 \dblA A4 |
+  \dblf f4 \grg f8. [e16] \grg c16 [e8.] \grg f4 |
+  \grg b8. [f16 \gre f8. e16] \grg f4 \dblA A4 |
   \hdble e4 \gra e8. [c16] \grg f8. [e16] \dblc c4 |
   \grg a8. [e16 \gra e8. c16] \dble e4 f4 |
   \break
   \grg f8. [A16 \grg A8. e16] \grg f8. [e16] \dblc c4 |
-  \grg b8. [f16 \gre f8. e16] \dblf f4 \gre e8. [f16] |
+  \grg b8. [f16 \gre f8. e16] \grg f4 \grg e8. [f16] |
   A8. [e16 \grg f16 A8.] \hdblf f4 \grg e8. [c16] |
   \grg b16 [\grd b8. \grg c16 \grd a8.] \grg b8. [\grd b16 \gre b8. \grd c16] \bar "|.-b"
   \break
   
   \grg b16 [\grd b8. \grg c16 \grd a8.] \grg c8. [b16 \grG b8. \grd c16] |
-  \grg b8. [f16 \gre f8. e16] \dblf f4 \dblA A4 |
+  \grg b8. [f16 \gre f8. e16] \grg f4 \dblA A4 |
   a16 [\grd a8. \grg c16 e8.] \grg c8. [\grd a16 \gre a8. \grd c16]|
   \grg a8. [e16 \gra e8. c16] \dble e4 f4 |
   \break
   \grg b8. [\grd b16 \gre b8. \grd c16] \grg c8. [b16 \grG b8. \grd c16] |
-  \grg b8. [f16 \gre f8. e16] \dblf f4 \gre e8. [f16] |
+  \grg b8. [f16 \gre f8. e16] \grg f4 \grg e8. [f16] |
   A8. [e16 \grg f16 A8.] \hdblf f4 \grg e8. [c16] |
   \grg b16 [\grd b8. \grg c16 \grd a8.] \grg b8. [\grd b16 \gre b8. \grd c16] \bar "|.-b"
   \break
   
-  \grg f8. [A16 \grg A8. e16] \dblf f4 \grg e8. [f16] |
+  \grg f8. [A16 \grg A8. e16] \grg f4 \grg e8. [f16] |
   A8. [e16 \grg f16 A8.] \hdblf f4 \dblA A4 |
   c8. [e16 \gra e8. f16] \dble e4 \dblc c8. [b16] |
   \grg a8. [\grd a16 \gre a8. \grd c16] \dble e4 f4 |
   \break
   \grg b16 [\grd b8. \grg c16 \grd a8.] \grg b8. [\grd b16 \gre b8. \grd c16] |
-  \grg b8. [f16 \gre f8. e16] \dblf f4 \gre e8. [f16] |
+  \grg b8. [f16 \gre f8. e16] \grg f4 \grg e8. [f16] |
   A8. [e16 \grg f16 A8.] \hdblf f4 \grg e8. [c16] |
   \grg b16 [\grd b8. \grg c16 \grd a8.] \grg b8. [\grd b16] \gre b4 \bar "|.-b"
 }

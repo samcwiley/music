@@ -60,7 +60,7 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
           
                 \header{
           piece = "Gardens of Skye"
-          opus = "A. Harper"
+          opus = "A. Harper, Harmonies S. Wiley"
         }
 }
 
@@ -81,6 +81,7 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
           opus = "PM Donald MacLeod"
         }
 }
+\pageBreak
 
 \score {
 	\new GrandStaff <<
@@ -89,12 +90,18 @@ voltaOne = \markup  { \hspace #20 \text \italic \fontsize #+5 { "1" }  }
 				\global
 				\LordLovatsLament
 			}
-		>>		
+		>>
+		\new Staff = "GHB" <<
+		        \new Voice {
+		              \global
+		              \LordLovatsHarmonies
+		        }
+		>>
 	>>
         \layout { \ScoreLayout                 }
                 \header{
           piece = "Lord Lovat's Lament"
-          opus = "Traditional / Arr APB"
+          opus = "Traditional, Harmonies S. Wiley"
         }
 }
 

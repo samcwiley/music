@@ -263,11 +263,11 @@ MyHomeTownFirstPart =
       \grg A8 g8 \grA f4~f8 [A8] | 
       \hdblf f16. [e32 d8] \grg b4 \taor b8 [d8] |
       \dblc c8 [b8] \grG a4 \grg d16. [e32 f8] |
-      \dble e8. [d16] \grc d4~d8 a8 \bar "|"
+      \dble e8. [d16] \grc d4~d8 a8 \bar "||"
   }
 }
 
-MyHomeTownMelody = 
+MyHomeTownMelody =
 {
     \time 3/4
     \repeat volta 2 {
@@ -280,25 +280,25 @@ MyHomeTownMelody =
       \grg A8 g8 \grA f4~f8 [A8] | 
       \hdblf f16. [e32 d8] \grg b4 \taor b8 [d8] |
       \dblc c8 [b8] \grG a4 \grg d16. [e32 f8] |
-      \dble e8. [d16] \grc d4~d8 a8 \bar "||"
+      \dble e8. [d16] \grc d4~d8 a8 \bar "|."
     }
     \grg d16. [ e32 f8 ] \hdblg g4~g4 |
-    \tdblf f8 [ e8 ]  \grg f4 \thrwd d4 |
-    \dblA A8 [ f8 ]  \dble e4~e8 [ d8 ] |
-    \grg f8 [ a8 ] \grip b4~b8 [ \grg a8 ] |
+    \hdblf f8 [ e8 ]  \grg f4 \thrwd d4 |
+    A8 [ f8 ]  \dble e4~e8 [ d8 ] |
+    \grg f8 [ a8 ] \grip b4~b8 [ a8 ] |
     \break
-    \wbirl a8 [ b8 ] \thrwd d4 \slurd d8 [ A8 ] |
-    \hdblf f16. [ e32 d8 ] \grg b4 \grip b8 [ d8 ] |
+    \grg a8 [ b8 ] \thrwd d4 ~ d8 [ A8 ] |
+    \hdblf f16. [ e32 d8 ] \grg b4 \taor b8 [ d8 ] |
     \dblc c8 [ b8 ]  \gra a4  \grg d16. [ e32 f8 ] |
-    \dble e8. [ d16 ] \grc d4~d8 a8| 
+    \dble e8. [ d16 ] \grc d4~d8 a8 \bar "||" 
     \break
     \grghide \grg d16. [ e32 f8 ] \hdblg g4~g4 |
-    \tdblf f8 [ e8 ]  \grg f4 \thrwd d4 |
-    \dblA A8 [ f8 ]  \dble e4~e8 [ d8 ] |
-    \grg f8 [ a8 ] \grip b4~b8 [ \grg a8 ] |
+    \hdblf f8 [ e8 ]  \grg f4 \thrwd d4 |
+    A8 [ f8 ]  \dble e4~e8 [ d8 ] |
+    \grg f8 [ a8 ] \grip b4~b8 [ a8 ] |
     \break
-    \wbirl a8 [ b8 ] \thrwd d4 \slurd d8 [ A8 ] |
-    \hdblf f16. [ e32 d8 ] \grg b4 \grip b8 [ d8 ] |
+    \grg a8 [ b8 ] \thrwd d4 ~ d8 [ A8 ] |
+    \hdblf f16. [ e32 d8 ] \grg b4 \taor b8 [ d8 ] |
     \dblc c8 [ b8 ]  \gra a4  \grg d16. [ e32 f8 ] |
     \dble e8. [ d16 ] \grc d4~d4 \bar "|."
   
@@ -317,18 +317,18 @@ MyHomeTownSeconds =
       \break
       \grg c4 \thrwd d4 \gre a4 |
       \grg d8 a8 \grg G4 \Gthrwd d8 b8 |
-      \grg a8 b8 \grg d16 [e16 f8] \grg a4 |
+      \grg a8 b8 \grg d16. [e32 f8] \grg a4 |
       \wbirl a2. \bar "||"
     
   }
   
   \bar ".|" %second part first time
   \grg d16. [ e32 f8 ] \hdblg g4~g4 |
-  \tdblf f8 [ e8 ]  \grg f4 \thrwd d4 |
-  \dblA A8 [ f8 ]  \dble e4~e8 [ d8 ] |
+  \hdblf f8 [ e8 ]  \grg f4 \thrwd d4 |
+  A8 [ f8 ]  \dble e4~e8 [ d8 ] |
   \grg d4 \gre G4~G8 [d8] |
   \break
-  \hdblhide \grg c8 [e8] \grg f4 a4 |
+  \grg c8 [e8] \grg f4 a4 |
   \grg d8 a8 \grg G4 \Gthrwd d8 b8 |
   \grg a8 b8 \grg d16. [e32 f8] \grg a4 |
   \wbirl a4 \grg a4~a8 d8 |
@@ -339,9 +339,9 @@ MyHomeTownSeconds =
   \grg d8 a8 \grg d4 \grg c8 f8 |
   \grg d4 \gre G4~G8 d8 |
   \break
-  \hdblhide \grg c8 e8 \grg f4 a4 |
+  \grg c8 e8 \grg f4 a4 |
   \grg d8 a8 \grg G4 \Gthrwd d8 b8 |
-  \grg a8 b8 \grg d16 [e16 f8] \grg a4 |
+  \grg a8 b8 \grg d16. [e32 f8] \grg a4 |
   \wbirl a4 \grg a4~a4 \bar "|."
 }
 
@@ -364,11 +364,11 @@ MyHomeTownThirds =
   
   \break
   \grg d16. [ e32 f8 ] \hdblg g4~g4 |
-  \tdblf f8 [ e8 ]  \grg f4 \thrwd d4 |
-  \dblA A8 [ f8 ]  \dble e4~e8 [ d8 ] |
+  \hdblf f8 [ e8 ]  \grg f4 \thrwd d4 |
+  A8 [ f8 ]  \dble e4~e8 [ d8 ] |
   \grg a8 d8 \dblg g2 |
   \break
-  \hdblhide \grA g4 A4 \grg A8 f8 |
+  \grA g4 A4 \grg A8 f8 |
   A16. [g32 f8] \grg d4 \dblg g4 |
   \grA g8 e8 \dblA A4 f16. [g32 A8] |
   \grf g8. f16 \gre f2 |
@@ -378,7 +378,7 @@ MyHomeTownThirds =
   \grg f8 d8 \grg a4~a8 \grd a8 |
   \grg a8 f8 \dblg g4~g4 |
   \break
-  \hdblhide \grA g4 A4 \grg A8 f8 |
+  \grA g4 A4 \grg A8 f8 |
   A16. [g32 f8] \grg d4 \dblg g4 |
   \grA g8 [e8] \dblA A4 f16. [g32 A8] |
   \grf g8. [f16] \gre f4~f4 \bar "|."
