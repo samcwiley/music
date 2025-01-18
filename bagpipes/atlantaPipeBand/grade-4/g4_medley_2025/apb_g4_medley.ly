@@ -9,8 +9,6 @@
 
 \include "apb_g4_medley_voices.ly"
 
-
-filename = "~/APB-Gr4-2025-Medley-Harmonies-Final.ly"
 tunesetVersion = "Version 1"
 source = ""  % e.g. Argyll & Sutherland Highlanders
 
@@ -28,7 +26,7 @@ source = ""  % e.g. Argyll & Sutherland Highlanders
     
 
   % \bookOutputSuffix 
-  \bookOutputName "APB-2025-Gr4-Medley-Harmony-Final"    
+  \bookOutputName "apb_g4_medley_harmonies"    
   \header { 
           title = "APB Grade 2025 Medley"
           composer = ""
@@ -82,7 +80,7 @@ source = ""  % e.g. Argyll & Sutherland Highlanders
         \layout { \ScoreLayout }
                 \header{
           piece = \markup {\fontsize #1 "Keltman's Jig"}
-          opus = "Arr APB"
+          opus = "Trad, Harmonies S. Wiley"
         }
 }
 
@@ -143,12 +141,20 @@ source = ""  % e.g. Argyll & Sutherland Highlanders
                                \MacFaddensReel
                        } 
                               >>
+                              <<
+                 \new Staff = "GHB" 
+                       \new Voice {
+                             \global
+                             \defaultTimeSignature
+                             \MacFaddensReelSeconds
+                       }
+                              >>
         >>
         \layout { \ScoreLayout }
                 \header{
           piece = \markup {\fontsize #3 "MacFadden's Reel"}
           meter = "Reel"
-          opus = "Traditional Arr APB"
+          opus = "Traditional, Harmonies S. Wiley"
         }
 }   
  
@@ -199,7 +205,7 @@ source = ""  % e.g. Argyll & Sutherland Highlanders
     
 
   % \bookOutputSuffix 
-  \bookOutputName "APB-2025-Gr4-Medley-Melody-Only-Final"    
+  \bookOutputName "apb_g4_medley"    
   \header { 
           title = "APB Grade 2025 Medley"
           composer = ""
@@ -226,7 +232,7 @@ source = ""  % e.g. Argyll & Sutherland Highlanders
         \layout { \ScoreLayout }
                 \header{
           piece = \markup {\fontsize #1 "Corriechoillie's 43rd Welcome to the Northern Meeting"}
-          opus = "PM Willie Ross Harmony Janette Montague"
+          opus = "PM Willie Ross, Harmony Janette Montague"
         }
 }
 
@@ -242,7 +248,7 @@ source = ""  % e.g. Argyll & Sutherland Highlanders
         \layout { \ScoreLayout }
                 \header{
           piece = \markup {\fontsize #1 "Keltman's Jig"}
-          opus = "Arr APB"
+          opus = "Trad, Arr. APB"
         }
 }
 

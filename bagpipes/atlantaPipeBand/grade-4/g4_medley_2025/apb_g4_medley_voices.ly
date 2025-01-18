@@ -2731,14 +2731,14 @@ MacFaddensReel =
   %\thrwd d4.  e8 \grg f8 [ g8 \grA f8 e8 ] |
   \grg d4.  e8 \grg f8 [ g8 \grA f8 e8 ] |
   %\grg d8 [ \grG d8 \grg f8 d8 ] \grg e8 [ a8 ] \gbirl a4 |
-  \grg d8 [ \grG d8 \grg f8 d8 ] \grg e8 [ a8 ] \grg a8 [ \grd a8]|
+  \grg d8 [ \grG d8 \grg f8 d8 ] \grg e8 [ a8 \grg a8  \grd a8]|
   \grg d8 [ c8 \grg d8 e8 ]  \grg f8 [ g8 \grA f8 e8 ] |
   \grg d8 [ f8 A8 f8 ] \grg e8 [ d8 \grg b8 c8 ] |
   \break
   %\thrwd d4.  e8 \grg f8 [ g8 \grA f8 e8 ] |
   \grg d4.  e8 \grg f8 [ g8 \grA f8 e8 ] |
   %\grg d8 [ \grG d8 \grg f8 d8 ] \grg e8 [ a8 ] \gbirl a4 |
-  \grg d8 [ \grG d8 \grg f8 d8 ] \grg e8 [ a8 ] \grg a8 [ \grd a8] |
+  \grg d8 [ \grG d8 \grg f8 d8 ] \grg e8 [ a8 \grg a8 \grd a8] |
   \grg d8 [ a8 \grg e8 a8 ] \grg f8 [ a8 \grg e8 a8 ] |
   %\grg d8 [ f8 A8 f8 ] \dble e2 |
   %\numericTimeSignature
@@ -2746,7 +2746,31 @@ MacFaddensReel =
   \grg d8_\markup {\italic "break to Tail Toddle"}[f8 A8 f8] \grg e8 [ d8 b8 c8 ]  | \bar "|."
   \break
 }                         
- 
+
+MacFaddensReelSeconds = {
+  \reelTime
+  \bar ".|-|"
+  \grg f8 [ b8 \grg b8 \grG b8 ] \grg f8 [ A8 g8 A8 ] |
+  f8 [ b8 \grg b8 \grG b8 ] \grg e8 [ f8 \grg d8 e8 ] |
+  \grg f8 [ b8 \grg b8 \grG b8 ] \grg e8 [ f8 \grg f8 e8 ] |
+  \grg d8 [ f8 A8 f8 ] \grg e4 \grg d8 [ e8 ] |
+  \break
+   \grg f2 a2 |
+   \grg d2 A4 g4 |
+   \grA f2 a2 |
+   \grg d2 A4 e4 \bar "|.-b"
+  \break 
+  \grg d4.  e8 \grg f8 [ g8 \grA f8 e8 ] |
+  \grg d8 [ \grG d8 \grg f8 d8 ] \grg c4 e4 |
+  \grg a2 \grg d4 c4 |
+  \grg d2 e2 |
+  \break
+  \grg a2 \grg d4 c4 |
+  \grg f4 d4 \grg c2 |
+  \grg f8 [a8 \grA g8 a8] A8 [a8 \grA g8 a8] |
+  \grg d8 [f8 A8 f8] \grg e8 [ d8 b8 c8 ]  | \bar "|."
+  \break
+}
 
 
 MacFaddensReelHarmony = 
