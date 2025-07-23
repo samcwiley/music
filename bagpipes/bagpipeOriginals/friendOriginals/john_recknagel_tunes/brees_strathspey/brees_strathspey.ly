@@ -20,24 +20,40 @@ source = "John Recknagel"
 
 voltaTwo = \markup  { \hspace #20 \italic \fontsize #+5 { "2" }  }
 
-untitled_march = {
+brees_strathspey = {
   \time 4/4
   \bar ".|:"
   \repeat volta 2 {
     \thrwd d8. [b16] \grg a8. [b16] \grg d16 [\grc d8.] \grg e4 |
-    \grg f16 [A8.] 
+    \grg f16 [A8.] f16 [e16 d8] \dble e8. [d16] \grg b8. [c16] |
+    \thrwd d8. [b16] \grg a8. [b16] \grg d16 [\grc d8.] \grg e8. [g16] |
+    \grA f16 [e16 d8] \dble e8. [d16] \dblb b4 \grG a4 |
   }
+  \break
   \repeat volta 2 {
-    \pickup 8 \grg f16. [g32] |
-    A8 [\grip A16. d32] \grg c32 [\grd a16. \grg c32 e16.] |
-    \dblf f8 [\grg e8] \gra e8 [\grg f16. g32] |
-    A8 [\grip A16. d32] \grg c32 [e16. \grg a16. b32] |
-    \dblc c8 [\gre b8] \taor b8 [\grg f16. g32] |
+    \grg f16 [A8.] \hdblf f8. [e16] \grg f16 [d8.] \slurd d4 |
+    \grg f16 [A8.] \hdblf f8. [e16] \dble e8. [d16] \grg b16 [\grd a8.] |
+    \grg f16 [A8.] \hdblf f8. [e16] \grg f16 [d8.] \slurd d8. [g16] |
+    \grA f16 [e16 d8] \dble e8. [d16] \dblb b4 \grG a4 |
+  }
+  \break
+  \repeat volta 2 {
+    \grg a8. [b16] \thrwd d8. [A16] f16 [\grg e8.] \gra e8. [g16] |
+    \grA g8. [d16] \grg e8. [d16] \grg f8. [d16] \grg b16 [d8.] |
+    \grg a8. [b16] \thrwd d8. [A16] f16 [\grg e8.] \thrwd d8. [g16] |
+    \grA f16 [e16 d8] \dble e8. [d16] \dblb b4 \grG a4 |
+   \break
+  }
+  {
+    \dblA A4 \grip A8. [g16] \grA f8. [e16] \thrwd d8. [e16] |
+    \grg f8. [d16] \grg e8. [d16] \grg b16 [d8.] \grg b16 [\grd a8.] |
+    \dblA A4 \grip A8. [g16] \grA f8. [e16] \thrwd d8. [g16] |
+    \grA f16 [e16 d8] \dble e8. [d16] \dblb b4 \grG a4 |
     \break
-    A8 [\grip A16. d32] \grg c32 [\grd a16. \grg c32 e16.] |
-    \dblf f16. [e32 \grg d32 f16.] \dble e8 [\grg a16. b32] |
-    \grg c32 [e16. A16. g32] \tdble e16. [c32 \dbld d16. b32] |
-    \partial 8*3 \dblc c8 [\gre a8] \wbirl a8 |
+    \dblA A4 \grip A8. [g16] \grA f8. [e16] \thrwd d8. [e16] |
+    \grg f8. [d16] \grg e8. [d16] \grg b16 [d8.] \grg b16 [\grd a8.] |
+    \thrwd d8. [b16] \grg a8. [b16] \grg d16 [\grc d8.] \grg e8. [g16] |
+    \grA f16 [e16 d8] \dble e8. [d16] \dblb b4 \grG a4 \bar "|."
   }
 }
 
@@ -47,7 +63,7 @@ untitled_march = {
           { 
             \column {  
               \center-align {
-                \line { Untitled March }
+                \line { Bree's Strathspey }
               }
             }
           }
@@ -62,7 +78,7 @@ untitled_march = {
 
 
 \paper {
-	#(set-paper-size "letter" 'portrait)
+	#(set-paper-size "letter" 'landscape)
 }
 
 
@@ -72,7 +88,7 @@ untitled_march = {
 		\new Staff = "GHB" <<
 			\new Voice {
 			        \global
-				\untitled_march
+				\brees_strathspey
 			}
 		>>		
 	>>
