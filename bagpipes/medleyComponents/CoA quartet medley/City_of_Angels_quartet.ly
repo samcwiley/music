@@ -21,6 +21,47 @@ source = "Arr. Sam Wiley"
 voltaTwo = \markup  { \hspace #20 \italic \fontsize #+5 { "2" }  }
 #(set-global-staff-size 16)
 
+high_road = {
+  \time 2/4
+  \tempo = 80
+  \grg e8. [f16] \dble e8 [a8] |
+  \dblc c8 [\gre a8] \dble e4 |
+  \thrwd d8 [\grg f16. e32] \thrwd d8 \gre G8 |
+  \hthrwd d8 [\gre G8] \hthrwd d4] |
+  \break
+  \grg e8. [f16] \dble e8 [a8] |
+  \dblc c8 [\gre a8] \dble e4 |
+  \grg a8. [b16] \dblc c8 [\gre a8] |
+  \dblb b4 \grG a4 \bar "||"
+  \break
+  
+  %crazy time
+  \grg e8. [f16] \dble e8 [a8] |
+  \dblc c8 [\gre a8] \edre e8 [\grg e16 \gra e16 |
+  \grg d16 [G16 \grg f16 e16] \thrwd d8 [G16 \grg b16 ~] |
+  ~b16  [G16 \darodo b8] \shaked d8 [\grg d16 e16] |
+  \break
+  \grg e16 [a16 \grg e16 f16] \dble e8. [a16] |
+  \grg c32 [b32 a16 \grg c16 e16] \dblA A4 |
+  \birl a8 [\grg a16 b16] \grg b32 [c16. a8 ~ ] |
+  ~ a16 [b16 \shakeb b8] a8. [b16] \bar "||" 
+  \break
+  
+  % part 2
+  \grg c16 [\grd a16 \gbirl a8] \grg a16 [\grG a16 \grg b16 a16] |
+  \grg c16 [a16 \grg a16 \grG a16] \dblc c4 |
+  \shaked d8 [\grg d16 c16] \darodo b8 [\grg b16 c16] |
+  \dblb d16 [c16 \grg d16 e16] \grg f16 [e16 \grg f16 A16] |
+  \break
+  \grg c16 [\grd a16 \gbirl a8] \grg a16 [\grG a16 \grg b16 a16] |
+  \grg c32 [b32 a16 \grg c16 e16] \dblA A4 |
+  \birl a8 [\grg a16 b16] \grg b32 [c16. a8 ~ ] |
+  ~ a16 [b16 \shakeb b8] a8. [b16] |
+  \break
+  
+  
+}
+
 gylen = {
   \time 4/4
   \tempo 4 = 80
