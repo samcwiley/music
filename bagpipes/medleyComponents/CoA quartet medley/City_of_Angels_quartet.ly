@@ -22,6 +22,16 @@ voltaTwo = \markup  { \hspace #20 \italic \fontsize #+5 { "2" }  }
 #(set-global-staff-size 16)
 
 high_road = {
+  \high_road_part_one
+  
+  % part 2
+  \high_road_melody_part_two_a
+  \break
+  %repeat 2
+  \high_road_melody_part_two_b
+}
+
+high_road_part_one = {
   \time 2/4
   %\tempo = 80
   \grg e8. [f16] \dble e8 [a8] |
@@ -46,19 +56,21 @@ high_road = {
   \birl a8 [\grg a16 b16] \grg b32 [c16. a8 ~ ] |
   a16 [b16 \shakeb b8] \grG a8. [b16] \bar "||" 
   \break
-  
-  % part 2
+}
+
+high_road_melody_part_two_a = {
   \grg c16 [a16 \gbirl a8] \grg a16 [\grG a16 \grg b16 a16] |
   \grg c16 [a16 \grg a16 \grG a16] \dblc c4 |
   \shaked d8 [\grg d16 c16] \darodo b8 [\grg b16 c16] |
-  \dbld d16 [c16 \grg d16 e16] \shaked d8 [\grG d16 \grG d16] |
+  \dbld d16 [c16 \grg b16 c16] \shaked d8 [\grG d16 \grG d16] |
   \break
   \grg c16 [a16 \gbirl a8] \grg a16 [\grG a16 \grg b16 a16] |
   \grg c32 [b32 a16 \grg c16 e16] \dblA A4 |
   \birl a8 [\grg a16 b16] \grg b32 [c16. a8 ~ ] |
   a16 [b16 \shakeb b8] \grG a8. [b16] \bar "||"
-  \break
-  %repeat 2
+}
+
+high_road_melody_part_two_b = {
   \grg c16 [a16 \gbirl a8] \grg a16 [\grG a16 \grg b16 a16] |
   \grg c16 [a16 \grg d16 a16] \grg f16 [e16 \grg d16 c16] |
   \shaked d8 [\grg d16 c16] \darodo b8 [\grg b16 c16] |
@@ -66,9 +78,57 @@ high_road = {
   \break 
   \grg c16 [a16 \gbirl a8] \grg a16 [\grG a16 \grg b16 a16] |
   \grg c32 [b32 a16 \grg c16 e16] \dblA A4 |
-  \birl a8 [\grg a16 b16] \grg b32 [c16. a8 ~ ] |
+  \birl a8 [\grg a16 b16] \grg b32 [c16. \grG a8 ~ ] |
   a4 ~ a4 ~ |
   \time 3/4 a16 [b16 \shakeb b8] \grG a4~a4 \bar "|."
+}
+
+high_road_harmonies = {
+  \time 2/4
+  \high_road_seconds_one
+  %repeat 2
+  \high_road_seconds_two
+}
+
+high_road_seconds_one = {
+  \time 2/4 
+  \grg c16 [a16 \gbirl a8] \grg a16 [\grG a16 \grg b16 a16] |
+  \grg c16 [a16 \grg a16 \grG a16] \dblc c4 |
+  \shaked d8 [\grg d16 c16] \darodo b8 [\grg b16 c16] |
+  \dbld d16 [c16 \grg b16 c16] \shaked d8 [\grG d16 \grG d16] |
+  \break
+  \grg e16 [c16 \shakec c8] \grg e16 [c16 \grg d16 c16] |
+  \grg e32 [d32 c16 \grg a16 \grd c16] e4 |
+  \shakec c8 [\grg c16 d16] \grg e8 [c8 ~] |
+  c16 [d16 \shaked d8] \grg c8. [d16] |
+  \break
+}
+
+high_road_seconds_two = {
+  \time 2/4
+  \grg e16 [c16 \shakec c8] \grg e16 [c16 \grg d16 c16] |
+  \grg e16 [c16 A16 c16] A16 [g16 \grA f16 e16] |
+  f16 [\grg f16 \gre f16 e16] \grg d16 [\gre d16 \grG d16 e16] |
+  \grg f16 [A16 d16 A16] c16 [f16 \grg e16 d16] |
+  \break
+  \grg e16 [c16 \shakec c8] \grg e16 [c16 \grg d16 c16] |
+  \grg e32 [d32 c16 \grg a16 \grd c16] e4 |
+  \gbirl a8 [\grg a16 b16] \grg b32 [c16. \grG a8 ] |
+  \shakec c8 [\grg c16 d16] \grg e8 [c8 ~] |
+  \time 3/4 c16 [d16 \shaked d8] \grg c4~c4 \bar "|."
+}
+
+high_road_thirds = {
+  \grg a2 |
+  \grd a2 |
+  \grg b2 |
+  \grg a16 [A16 b16 A16] b4 |
+  \break
+  \grg a2 |
+  \grd a2 |
+  \gbirl a8 [\grg a16 b16] \grg b32 [c16. \grG a8 ] |
+  \gbirl a8 [\grg a16 b16] \grg b32 [c16. \grG e8 ~] |
+  \time 3/4 e16 [d16 \shaked d8] \grg e4 ~ e4 \bar "|."
 }
 
 desperateBattle = {
@@ -116,8 +176,68 @@ flora = {
     \grg e8 [b8 \grG b8] \dbld d8 [b8 a8] |
     \grg G4. \dblG G4.
   }
+  \repeat volta 2 {
+    \dblg g4 e8 \grA g8 [d8 \grG d8] |
+    \grg e8 [b8 \grG b8] \dbld d4 e8 ] |
+    \grg d8 [\grg G8 \grd G8] \dble e4 b8 |
+    \grg d8 [\grg G8 \grd G8] \dble e8 [d8 b8] |
+    \break
+    \dblg g4 e8 \grA g8 [d8 \grG d8] |
+    \grg e8 [b8 \grG b8] \dbld d4 e8 ] |
+    \grg e8 [b8 \grG b8] \dbld d8 [b8 a8] |
+    \grg G4. \dblG G4. |
+  }
   \break
-  
+  % part 3&4
+  \repeat volta 2 {
+    \pickup 8*1 A8
+    a8 [c8 \grG c8] \grg c16 [\grG c8. b8] |
+    \grg a8 [ c8 \grG c8] \dble e8 [c8 b8] |
+    \grg a8 [f8 \gre f8] \dblf f4 e8 |
+    \grg a8 [f8 e8] \dblc c4 b8 |
+    \break
+    \grg a8 [c8 \grG c8] \grg c16 [\grG c8. b8] |
+    \grg a8 [c8 \grG c8] \dble e8 [c8 e8] |
+    \grg f8 [c8 \grG c8] \dble e8 [c8 b8] |
+    \partial 8*5 \grG a4. \wbirl a4 |
+    \break
+  }
+  \repeat volta 2 {
+    \dblA A4 f8 A8 [e8 \gra e8] |
+    \grg f8 [c8 \grG c8] \dble e4 f8 |
+    \grg e8 \birl a4 \dblf f4 c8 |
+    \grg e8 \birl a4 \dblf f8 [e8 c8] |
+    \break
+    \dblA A4 f8 A8 [e8 \gra e8] |
+    \grg f8 [c8 \grG c8] \grg e8 [f8 \gre f8] |
+    \grg f8 [c8 \grG c8] \dble e8 [c8 b8] |
+    \grG a4. \wbirl a4.
+  }
+}
+
+matchaPilates = {
+  \time 4/4
+  \slurb b4 \thrwd d8. [e16] \dblf f8. [a16] \dbld d8. [c16] |
+  \slurb b4 \thrwd d8. [f16] \dble e4 \grg e8. [d16] |
+  \grg c16 [b16 \grG a8] \dble e8. [a16] \grg f16 [A8 a16] \dble e8. [a16] |
+  \grg c16 [b16 \grG a8] \grg c8. [d16] \dble e4 \gra e8. [f16] |
+  \break
+  \grg d16 [c16 b8] \thrwd d8. [e16] \dblf f8. [a16] \dbld d8. [c16] |
+  \slurb b4 \thrwd d8. [f16] \dble e4 \thrwd d8. [e16] |
+  \grg f16 [A8.] b16 [c16 d8] \grg a8. [f16] \dble e8. [c16] |
+  \partial 16*15 \grg d16 [e16 f8] \grg e16 [d16 c8] \grg b4 \taor b8. \bar "||"
+  \break
+  % part 2
+  \pickup 16 g16 |
+  \grA f16 [A8.] b16 [c16 d8] \grg c16 [\grip e8.] \birl a8. [\grd c16] |
+  \dblb b16 [\gre a8.] \grg b16 [c16 d8] \dble e4 \grg e8. [d16] |
+  \grg c16 [b16 \grG a8] \dble e8. [a16] \grg f16 [A8 a16] \dble e8. [a16] |
+  \grg c16 [b16 \grG a8] \grg c8. [d16] \dble e4 \gra e8. [g16] |
+  \break
+  \grA f16 [A8.] b16 [c16 d8] \grg c16 [\grip e8.] \birl a8. [\grd c16] |
+  \dblb b16 [\gre a8.] \grg b16 [c16 d8] \dble e4 \thrwd d8. [e16] |
+  \grg f16 [A8.] b16 [c16 d8] \grg a8. [f16] \dble e8. [c16] |
+  \grg d16 [e16 f8] \grg e16 [d16 c8] \grg b4 \taor b4 \bar "|."
 }
 
 andrewMacNeil = {
@@ -650,7 +770,7 @@ krakenHarmony = {
   \new Staff
     \new Voice {
       \global
-      \high_road
+      \high_road_part_one
     }
   \header{
     piece = \markup {\fontsize #3 "Higher Road to Gairloch"}
@@ -660,17 +780,50 @@ krakenHarmony = {
   }  
 }
 
+\score { 
+  \new StaffGroup <<
+    \new Staff
+      \new Voice {
+        \global
+        \high_road_melody_part_two_a
+      }
+    \new Staff
+      \new Voice {
+        \global
+        \high_road_seconds_one
+      }
+  >>
+}
+
+\score {
+  \new StaffGroup <<
+    \new Staff
+      \new Voice {
+        \global
+        \high_road_melody_part_two_b
+      } 
+    \new Voice {
+      \global
+      \high_road_seconds_two
+    }
+    \new Voice {
+      \global
+      \high_road_thirds
+    }
+  >>
+}
+
 #(set-global-staff-size 18)
 
 \score {
   \new Staff
     \new Voice {
       \global
-      \andrewMacNeil
+      \flora
     }
   \header{
-    piece = \markup {\fontsize #3 "Andrew MacNeill"}
-    opus = "Donald MacLeod"
+    piece = \markup {\fontsize #3 "Flora MacAuley"}
+    opus = "Allan MacDonald"
     meter = "Jig"
     title = ##f
   }  
@@ -683,12 +836,12 @@ krakenHarmony = {
   \new Staff
     \new Voice {
       \global
-      \time 6/8 \tempo 8. = 110 \drIainFirstMelody
+      \tempo 4 = 110 \matchaPilates
     }
   \header{
-    piece = \markup {\fontsize #3 "Dr. Iain MacAonghais"}
-    opus = "A. MacDonald, arr. I. McKenzie"
-    meter = "Jig"
+    piece = \markup {\fontsize #3 "matcha pilates in bali before a labubu rave >>>>>>>>>>>"}
+    opus = "Pipe Corporal K. Carothers and Pipe Rear Admiral S. Wiley"
+    meter = "Strathspey"
     title = ##f
   }
 }
