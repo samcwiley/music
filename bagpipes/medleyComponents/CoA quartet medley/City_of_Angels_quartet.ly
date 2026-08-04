@@ -217,20 +217,20 @@ flora = {
 
 matchaPilates = {
   \time 4/4
-  \slurb b4 \thrwd d8. [e16] \dblf f8. [a16] \dbld d8. [c16] |
+  \slurb b4 \thrwd d8. [e16] \dblf f8. [b16] \dbld d8. [c16] |
   \slurb b4 \thrwd d8. [f16] \dble e4 \grg e8. [d16] |
   \grg c16 [b16 \grG a8] \dble e8. [a16] \grg f16 [A8 a16] \dble e8. [a16] |
   \grg c16 [b16 \grG a8] \grg c8. [d16] \dble e4 \gra e8. [f16] |
   \break
-  \grg d16 [c16 b8] \thrwd d8. [e16] \dblf f8. [a16] \dbld d8. [c16] |
+  \grg d16 [c16 b8] \thrwd d8. [e16] \dblf f8. [b16] \dbld d8. [c16] |
   \slurb b4 \thrwd d8. [f16] \dble e4 \thrwd d8. [e16] |
   \grg f16 [A8.] b16 [c16 d8] \grg a8. [f16] \dble e8. [c16] |
   \partial 16*15 \grg d16 [e16 f8] \grg e16 [d16 c8] \grg b4 \taor b8. \bar "||"
   \break
   % part 2
   \pickup 16 g16 |
-  \grA f16 [A8.] b16 [c16 d8] \grg c16 [\grip e8.] \birl a8. [\grd c16] |
-  \dblb b16 [\gre a8.] \grg b16 [c16 d8] \dble e4 \grg e8. [d16] |
+  \grA f16 [A8.] b16 [c16 d8] \grg b8. [f16] thrwd d8. [b16] |
+  \dblc c16 [\gre a8.] \grg b16 [c16 d8] \dble e4 \grg e8. [d16] |
   \grg c16 [b16 \grG a8] \dble e8. [a16] \grg f16 [A8 a16] \dble e8. [a16] |
   \grg c16 [b16 \grG a8] \grg c8. [d16] \dble e4 \gra e8. [g16] |
   \break
