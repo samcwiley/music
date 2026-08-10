@@ -21,15 +21,6 @@ source = "Arr. Sam Wiley"
 voltaTwo = \markup  { \hspace #20 \italic \fontsize #+5 { "2" }  }
 #(set-global-staff-size 16)
 
-high_road = {
-  \high_road_part_one
-  
-  % part 2
-  \high_road_melody_part_two_a
-  \break
-  %repeat 2
-  \high_road_melody_part_two_b
-}
 
 high_road_part_one = {
   \time 2/4
@@ -59,6 +50,7 @@ high_road_part_one = {
 }
 
 high_road_melody_part_two_a = {
+  \time 2/4
   \grg c16 [a16 \gbirl a8] \grg a16 [\grG a16 \grg b16 a16] |
   \grg c16 [a16 \grg a16 \grG a16] \dblc c4 |
   \shaked d8 [\grg d16 c16] \darodo b8 [\grg b16 c16] |
@@ -83,15 +75,9 @@ high_road_melody_part_two_b = {
   \time 3/4 a16 [b16 \shakeb b8] \grG a4~a4 \bar "|."
 }
 
-high_road_harmonies = {
-  \time 2/4
-  \high_road_seconds_one
-  %repeat 2
-  \high_road_seconds_two
-}
+
 
 high_road_seconds_one = {
-  \time 2/4 
   \grg c16 [a16 \gbirl a8] \grg a16 [\grG a16 \grg b16 a16] |
   \grg c16 [a16 \grg a16 \grG a16] \dblc c4 |
   \shaked d8 [\grg d16 c16] \darodo b8 [\grg b16 c16] |
@@ -129,6 +115,23 @@ high_road_thirds = {
   \gbirl a8 [\grg a16 b16] \grg b32 [c16. \grG a8 ] |
   \gbirl a8 [\grg a16 b16] \grg b32 [c16. \grG e8 ~] |
   \time 3/4 e16 [d16 \shaked d8] \grg e4 ~ e4 \bar "|."
+}
+
+high_road = {
+  \high_road_part_one
+  
+  % part 2
+  \high_road_melody_part_two_a
+  \break
+  %repeat 2
+  \high_road_melody_part_two_b
+}
+
+high_road_harmonies = {
+  \time 2/4
+  \high_road_seconds_one
+  %repeat 2
+  \high_road_seconds_two
 }
 
 desperateBattle = {
@@ -173,45 +176,45 @@ flora = {
     \break
     \grg G8 [b8 \grG b8] \grg b16 [\grG b8. a8] |
     \grg G8 [b8 \grG b8] \dbld d8 [b8 d8] |
-    \grg e8 [b8 \grG b8] \dbld d8 [b8 a8] |
-    \grg G4. \dblG G4.
+    \dble e8 [b8 \grG b8] \dbld d8 [b8 a8] |
+    \grg G4. \alternative {{\dblG G4.} {\grg d8 [e8 f8]}}
   }
   \repeat volta 2 {
     \dblg g4 e8 \grA g8 [d8 \grG d8] |
-    \grg e8 [b8 \grG b8] \dbld d4 e8 |
-    \grg d8 [\grg G8 \grd G8] \dble e4 b8 |
-    \grg d8 [\grg G8 \grd G8] \dble e8 [d8 b8] |
+    \grg e8 [b8 \grG b8] \shaked d4 e8 |
+    \dbld d8 [ G8 \grd G8] \dble e4 b8 |
+    \dbld d8 [ G8 \grd G8] \dble e8 [d8 b8] |
     \break
     \dblg g4 e8 \grA g8 [d8 \grG d8] |
-    \grg e8 [b8 \grG b8] \dbld d4 e8 |
-    \grg e8 [b8 \grG b8] \dbld d8 [b8 a8] |
-    \grg G4. \dblG G4. |
+    \grg e8 [b8 \grG b8] \dbld d8 [b8 d8] |
+    \dble  e8 [b8 \grG b8] \dbld d8 [b8 a8] |
+    \alternative {{\grg G8 [\grd G8 \gre G8] \grg d8 [e8 f8]}
+        {\dblG G4. \dblA A4.}} |
   }
   \break
   % part 3&4
   \repeat volta 2 {
-    \pickup 8*1 A8
     a8 [c8 \grG c8] \grg c16 [\grG c8. b8] |
     \grg a8 [ c8 \grG c8] \dble e8 [c8 b8] |
-    \grg a8 [f8 \gre f8] \dblf f4 e8 |
+    \alternative {{\grg a8 [f8 \gre f8] \dblf f4 e8} {\grg a8 [f8 e8] \grg a8 [f8 e8] }} |
     \grg a8 [f8 e8] \dblc c4 b8 |
     \break
     \grg a8 [c8 \grG c8] \grg c16 [\grG c8. b8] |
     \grg a8 [c8 \grG c8] \dble e8 [c8 e8] |
     \grg f8 [c8 \grG c8] \dble e8 [c8 b8] |
-    \partial 8*5 \grG a4. \wbirl a4 |
+    \alternative {{\gbirl a4. \dblA A4.} {\gbirl a4. ~ a4.}} |
     \break
   }
   \repeat volta 2 {
     \dblA A4 f8 A8 [e8 \gra e8] |
     \grg f8 [c8 \grG c8] \dble e4 f8 |
-    \grg e8 \birl a4 \dblf f4 c8 |
+    \alternative {{\grg e8 \birl a4 \dblf f4 c8}{\grg e8 \birl a4 f8 [\grg f8 c8]}} |
     \grg e8 \birl a4 \dblf f8 [e8 c8] |
     \break
     \dblA A4 f8 A8 [e8 \gra e8] |
-    \grg f8 [c8 \grG c8] \grg e8 [f8 \gre f8] |
+    \grg f8 [c8 \grG c8] \dble e8 [c8 e8] |
     \grg f8 [c8 \grG c8] \dble e8 [c8 b8] |
-    \grG a4. \wbirl a4.
+    \alternative {{\grg a8 [\grd a8 \gre a8] \grg a8 [\grd c8 e8]} {\gbirl a4. \wbirl a4.}}
   }
 }
 
@@ -232,6 +235,7 @@ matchaPilates = {
   \grA f16 [A8.] b16 [c16 d8] \grg b8. [f16] \thrwd d8. [b16] |
   \dblc c16 [\gre a8.] \grg b16 [c16 d8] \dble e4 \grg e8. [d16] |
   \grg c16 [b16 \grG a8] \dble e8. [a16] \grg f16 [A8 a16] \dble e8. [a16] |
+  \grg c16 [b16 \grG a8] \dble e8. [a16] \grg f16 [A8 a16] \dble e8. [a16] |
   \grg c16 [b16 \grG a8] \grg c8. [d16] \dble e4 \gra e8. [g16] |
   \break
   \grA f16 [A8.] b16 [c16 d8] \grg b8. [f16] \thrwd d8. [b16] |
@@ -240,34 +244,119 @@ matchaPilates = {
   \grg d16 [e16 f8] \grg e16 [d16 c8] \grg b4 \taor b4 \bar "|."
 }
 
+
+kyrieLineOne = {
+  \time 4/4
+  \grg e1 |
+  \grg c2 d2 |
+  \grg e4. d8 \grg c8 [b8] \grd c4~ |
+  c4 \grg b8 [a8] \grd b2 |
+  \break
+}
+
+KyrieLineTwoMelody = {
+  \time 4/4
+  \grg a4. b8 \grip c4 \grg d4 |
+  \gre a4 \thrwd d2 c4 |
+  \grg f4. e8 \grg d8 [c8] \thrwd d4~ |
+  d4 \grg c8 [a8] \grg b2 \bar "||"
+  \break
+}
+
+KyrieLineThreeMelody = {
+  \kyrieLineOne
+}
+
+KyrieLineFourMelody = {
+  \time 4/4
+  \grghide \grg e1 |
+  \grg c2 d2 |
+  \grg e4. d8 \grg c8 [b8] \grd c4~ |
+  c4 \grg b8 [a8] \grg a2 |
+  \thrwd d1 \bar "|."
+}
+
+KyrieLineTwoSeconds = {
+  \grg a4. b8 \grip c4 \grg d4 |
+  \gre a4 \thrwd d2 c4 |
+  \grg d2 \grG a2~ |
+  a4 A8 [e8] \grg f2
+}
+
+KyrieLineTwoThirds = {
+  A1 |
+  f2 g2 |
+  A4. g8 \grA f8 [e8] \grg f4~ |
+  f4 \grg e8 [c8] \thrwd d2 |
+}
+
+KyrieLineThreeSeconds = {
+  \grg e1 |
+  \grg e2 f2 |
+  \dblA A1 |
+  f2 \dblg g2 |
+  \break
+}
+
+KyrieLineThreeThirds = {
+  \grg e1 |
+  a1 |
+  \grg c4. b8 \grG a2~ |
+  a4 \grg d8 [c8] \thrwd d2 |
+}
+
+KyrieLineFourSeconds = {
+  \dblA A4. g8 \grA f8 [e8] \grg f4 |
+  \grg f4 e8 [d8] \grg e2 |
+  \thrwd d2 \grG a2~ |
+  a4 A8 [e8] \dblg g2 |
+  \grg A1 |
+}
+
+KyrieLineFourThirds = {
+  \dblA A1 |
+  f2 \dblg g2 |
+  \dblA A4. g8 \grA f8 [e8] \grg f4~ |
+  f4 e8 [c8] \grg e2 |
+  \grg f1 |
+}
+
+KyrieLineFourFourths = {
+  \grghide \grg c2 \grG a2 |
+  A4 a2. |
+  \thrwd d1 |
+  \grg f4 e4 \grg c2 |
+  \thrwd d1
+}
+
 smellingFresh = {
   \time 2/2
-  \grg c8 [d8 \shaked d4 ] \grg a8 [d8 \grG d8 a8] |
-  \grg b8 [d8 \dble e8 a8] \shaked d4 [\grg b8 a8] |
+  \grg c8 [d8] \shaked d4  \grg a8 [d8 \grG d8 a8] |
+  \grg b8 [d8 \dble e8 a8] \shaked d4 \grg b8 [a8] |
   \grg b8 [e8 \grg e8 \gra e8] \dble e8 [d8 \grg b8 a8] |
-  \grg b8 [e8 \dare f4] A8 [f8 \grg e8 f8] |
+  \grg b8 [e8] \dare f4 A8 [f8 \grg e8 f8] |
   \break
-  \grg c8 [d8 \shaked d4 ] \grg a8 [d8 \grG d8 a8] |
-  \grg b8 [d8 \dble e8 a8] \shaked d4 [\grg b8 a8] |
+  \grg c8 [d8] \shaked d4 \grg a8 [d8 \grG d8 a8] |
+  \grg b8 [d8 \dble e8 a8] \shaked d4 \grg b8 [a8] |
   \grg b8 [d8 \grg e8 f8] \birl a8 [A8 a8 A8] |
-  \grg A8 [f8 \grg e8 f8] \grg c8 [d8 \shaked d4] \bar "||"
+  \grg A8 [f8 \grg e8 f8] \grg c8 [d8] \shaked d4 \bar "||"
   \break
   % part 2
   \grg f8 [A8 g8 A8] f8 [A8 e8 f8] |
-  \grg f8 [gre f8 \grg f8 A8] e8 [f8 \grg f8 \gre f8] |
+  \grg f8 [\gre f8 \grg f8 A8] e8 [f8 \grg f8 \gre f8] |
   \birl a8 [A8 a8 A8] \grg A8 [a8 \dblA A8 a8] |
-  \grg f8 [a8 \grg f8 d8] \grg a8 [b8 \shakeb b4] |
+  \grg f8 [a8 \grg f8 d8] \grg a8 [b8] \shakeb b4 |
   \break
   \grg a8 [b8 \grG b8 a8] \shaked d4 \grg e8 [a8] |
   \grg e8 [f8 \birl a8 A8] f8 [e8 \grg d8 a8] |
   \grg b8 [d8 \grg e8 f8] \birl a8 [A8 a8 A8] |
-  \grg A8 [f8 \grg e8 f8] \grg c8 [d8 \shaked d4] \bar "||"
+  \grg A8 [f8 \grg e8 f8] \grg c8 [d8] \shaked d4 \bar "||"
   \break
   % part 2b
   \grg f8 [A8 g8 A8] f8 [A8 e8 f8] |
-  \grg f8 [gre f8 \grg f8 A8] e8 [f8 \grg f8 \gre f8] |
+  \grg f8 [\gre f8 \grg f8 A8] e8 [f8 \grg f8 \gre f8] |
   \birl a8 [A8 a8 A8] \grg A8 [a8 \dblA A8 a8] |
-  \grg f8 [a8 \grg f8 d8] \grg a8 [b8 \shakeb b4] |
+  \grg f8 [a8 \grg f8 d8] \grg a8 [b8] \shakeb b4 |
   \break
   \grg a8 [b8 \grG b8 a8] \shaked d4 \grg e8 [a8] |
   \grg e8 [f8 \birl a8 A8] f8 [e8 \grg d8 a8] |
@@ -352,25 +441,6 @@ smellingFresh = {
   >>
 }
 
-#(set-global-staff-size 18)
-
-\score {
-  \new Staff
-    \new Voice {
-      \global
-      \flora
-    }
-  \header{
-    piece = \markup {\fontsize #3 "Flora MacAuley"}
-    opus = "Allan MacDonald"
-    meter = "Jig"
-    title = ##f
-  }  
-}
-
-\pageBreak
-
-
 \score {
   \new Staff
     \new Voice {
@@ -389,11 +459,110 @@ smellingFresh = {
   \new Staff
     \new Voice {
       \global
-      % this measure numering is jank but works out with my macro for 
-      % overriding bar numbers in pickups (how embarrassing)
-      \set Score.currentBarNumber = #18
+      \flora
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Flora MacAuley"}
+    opus = "Allan MacDonald, Arr. Kyle Howie"
+    meter = "Jig"
+    title = ##f
+  }  
+}
+
+\pageBreak
+
+
+
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \kyrieLineOne
+    }
+  \header {
+    piece = \markup {\fontsize #3 "Kyrie Eleison, Missa Brevis"}
+    opus = "Giovanni Pierluigi da Palestrina Arr S. Wiley"
+  }
+}
+
+\score { 
+  \new StaffGroup <<
+    \new Staff
+      \new Voice {
+        \global
+        \KyrieLineTwoMelody
+      }
+    \new Staff
+      \new Voice {
+        \global
+        \KyrieLineTwoSeconds
+      }
+    \new Staff
+      \new Voice {
+        \global
+        \KyrieLineTwoThirds
+      }
+  >>
+}
+
+\score { 
+  \new StaffGroup <<
+    \new Staff
+      \new Voice {
+        \global
+        \KyrieLineThreeMelody
+      }
+    \new Staff
+      \new Voice {
+        \global
+        \KyrieLineThreeSeconds
+      }
+    \new Staff
+      \new Voice {
+        \global
+        \KyrieLineThreeThirds
+      }
+  >>
+}
+
+\score { 
+  \new StaffGroup <<
+    \new Staff
+      \new Voice {
+        \global
+        \KyrieLineFourMelody
+      }
+    \new Staff
+      \new Voice {
+        \global
+        \KyrieLineFourSeconds
+      }
+    \new Staff
+      \new Voice {
+        \global
+        \KyrieLineFourThirds
+      }
+    \new Staff
+      \new Voice {
+        \global
+        \KyrieLineFourFourths
+      }
+  >>
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
       \smellingFresh
     }
+  \header{
+    piece = \markup {\fontsize #3 "Smelling Fresh"}
+    opus = "Gordon Duncan Arr S. Wiley"
+    meter = "Strathspey"
+    title = ##f
+  }
 }
 
 }
