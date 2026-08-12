@@ -269,10 +269,10 @@ KyrieLineThreeMelody = {
 
 KyrieLineFourMelody = {
   \time 4/4
-  \grghide \grg e1 |
-  \grg c2 d2 |
-  \grg e4. d8 \grg c8 [b8] \grd c4~ |
-  c4 \grg b8 [a8] \grg a2 |
+  \grg a4. b8 \grip c4 \grg d4 |
+  \gre a4 \thrwd d2 c4 |
+  \grg f4. e8 \grg d8 [c8] \thrwd d4~ |
+  d4 \grg c8 [a8] \grg a2 |
   \thrwd d1 \bar "|."
 }
 
@@ -305,6 +305,13 @@ KyrieLineThreeThirds = {
   a4 \grg d8 [c8] \thrwd d2 |
 }
 
+KyrieLineThreeFifths = {
+  \grg e1 |
+  \grg c2 d2 |
+  \grg a8 [c8 \grG c8 b8] \grg a8 [d8 \grg e8 a8] |
+  \grg a8 [c8 b8 a8] \grg b8 [d8 \grG d8 b8] |
+}
+
 KyrieLineFourSeconds = {
   \dblA A4. g8 \grA f8 [e8] \grg f4 |
   \grg f4 e8 [d8] \grg e2 |
@@ -327,6 +334,77 @@ KyrieLineFourFourths = {
   \thrwd d1 |
   \grg f4 e4 \grg c2 |
   \thrwd d1
+}
+
+KyrieLineFourFifths = {
+  \grg a8 [e8 \gra e8 c8] \grg a8 [c8 d8 a8] |
+  \grg a8 [A8 \grg A8 a8] \grg a8 [b8 a8 \grG a8] |
+  \grg a8 [d8 \grG d8 a8] \grg a8 [
+}
+
+traversingTraditionPartOne = {
+  \time 6/8
+  \repeat volta 2 {
+    \pickup 8 \grg d16 [b16] |
+    \grg a16 [f16 \gre f16 a16 \grg d16 e16] \dare f8 [\grg f16 A16 f16 d16] |
+    \grg a16 [e16 \gra e16 d16 \dre e8] \grg a16 [f16 \gre f16 e16 \grg d16 b16] |
+    \break
+    \grg a16 [f16 \gre f16 a16 \grg d16 e16] \dare f8 [\grg f16 A16 f16 d16] |
+    \partial 8*5 \grg a16 [e16 \gra e16 a16 \grg f16 e16] \shaked d8 [\grg d8]	
+  }
+}
+ 
+traversingTraditionMelody = {
+  \pickup 8 \grg d16 [e16] |
+  \grg f16 [A16 \grg A16 d16 A16 c16] \grg d16 [A16 \grg A16 c16 \grg d16 b16] |
+  \grg c16 [A16 \grg A16 16 \grg c16 e16] \grg d16 [A16 \grg A16 c16 \grg d16 e16] |
+  \break
+  \grg f16 [A16 \grg A16 d16 A16 b16] \grg a16 [A16 \grg A16 f16 \grg d16 b16] |
+  \partial 8*5 \grg c16 [A16 \grg A16 b16 \grg c16 e16] \shaked d8 [\grg d8] \bar "||"
+  \break
+  \pickup 8 \grg d16 [e16] |
+  \grg f16 [A16 \grg A16 d16 A16 c16] \grg d16 [A16 \grg A16 c16 \grg d16 b16] |
+  \grg c16 [A16 \grg A16 16 \grg c16 e16] \grg d16 [A16 c16 A16 \grg A16 b16] |
+  \break
+  \grg a16 [b16 A16 c16 \grg d16 A16] \grg e16 f16 A16 f16 \grg d16 b16] |
+  \grg c16 [A16 \grg A16 g16 A16 c16] \grg e16 [A16 \grg A16 g16 A16 c16] |
+  \partial 8*4 \shaked d8 \grg d4~d4. \bar "|."
+}
+
+traversingTraditionSeconds = {
+  \time 6/8
+  \pickup 8 \grg b16 [c16] |
+  \grg d16 [A16 \grg A16 f16 A16 e16] \grg f16 [A16 \grg A16 e16 \grg f16 d16] |
+  \grg e16 [A16 \grg A16 d16 \grg e16 g16] \grg f16 [A16 \grg A16 e16 \grg f16 g16] |
+  \break
+  \grghide A16 [\grg A16 \grg A16 f16 A16 d16] \grg c16 [A16 \grg A16 \grg A16 f16 d16] |
+  \partial 8*5 \grg e16 [A16 \grg A16 d16 \grg e16 g16] \hslurf f8 \grg f8 |
+  \break
+  \pickup 8 \grg b16 [c16] |
+  \grg d16 [A16 \grg A16 f16 A16 e16] \grg f16 [A16 \grg A16 e16 \grg f16 d16] |
+  \grg e16 [A16 \grg A16 d16 \grg e16 g16] \grA f16 [A16 e16 A16 \grg A16 d16] |
+  \break  
+  \grg c16 [d16 A16 e16 \grg f16 A16] g16 [A16 \grg A16 \grg A16 f16 d16] |
+  \grg e16 [A16 \grg A16 g16 A16 e16] \grA g16 [A16 \grg A16 g16 A16 e16] |
+  \partial 8*4 \dare f8 \grg f4~f4.
+}
+
+traversingTraditionThirds = {
+  \time 6/8
+  \pickup 8 \grg b16 [c16] |
+  \grg d16 [A16 \grg A16 f16 A16 e16] \grg f16 [A16 \grg A16 e16 \grg f16 d16] |
+  \grg e16 [A16 \grg A16 d16 \grg e16 g16] \grg f16 [A16 \grg A16 e16 \grg f16 g16] |
+  \break
+  \grghide A16 [\grg A16 \grg A16 f16 A16 d16] \grg c16 [A16 \grg A16 \grg A16 f16 d16] |
+  \partial 8*5 \grg e16 [A16 \grg A16 d16 \grg e16 g16] \hslurf f8 \grg f8 |
+  \break
+  \pickup 8 \grg b16 [c16] |
+  \grg a16 [A16 \grg A16 d16 A16 c16] \grg d16 A16 \grg A16 a16 \grg b16 G16] |
+  \grg a16 [A16 \grg A16 G16 \grg a16 c16] \grg d16 [A16 a16 A16 \grg A16 G16] |
+  \break
+  \grg a16 [b16 A16 a16 \grg b16 A16] c16 [d16 A16 d16 \grg b16 G16] |
+  \grg a16 [A16 \grg A16 g16 A16 a16] \grg c16 A16 \grg A16 g16 A16 G16] |
+  \partial 8*4 \shakea a8 \grg a4~a4.
 }
 
 smellingFresh = {
@@ -364,9 +442,6 @@ smellingFresh = {
   \grg A8 [f8 \grg e8 f8] \grg e8 [d8 \grg b8 a8] |
   \thrwd d2 ~ d2 \bar "|."
 }
-
-  
-  
   
   
 \book {
@@ -547,6 +622,39 @@ smellingFresh = {
       \new Voice {
         \global
         \KyrieLineFourFourths
+      }
+  >>
+}
+
+\score {
+  \new Staff {
+    \new Voice {
+      \global
+      \traversingTraditionPartOne
+    }
+  }
+  \header {
+    piece = \markup {\fontsize #3 "Traversing Tradition"}
+    opus = "Adam Quinn"
+  }
+}
+
+\score {
+  \new StaffGroup <<
+    \new Staff 
+      \new Voice {
+        \global
+        \traversingTraditionMelody
+      }
+    \new Staff
+      \new Voice {
+        \global
+        \traversingTraditionSeconds
+      }
+    \new Staff
+      \new Voice {
+        \global
+        \traversingTraditionThirds
       }
   >>
 }
