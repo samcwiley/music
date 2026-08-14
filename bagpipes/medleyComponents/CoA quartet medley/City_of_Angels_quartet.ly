@@ -407,6 +407,31 @@ traversingTraditionThirds = {
   \partial 8*4 \shakea a8 \grg a4~a4.
 }
 
+shakeAbutGood = { \pgrace { A32[ g A g] } }
+
+bessieMacIntyre = {
+  \time 2/2
+  \gbirl a4 \grg e8 [c8] \grg e8 [f8 \grg e8 c8] |
+  \gbirl a4 \grg c8 [e8] \grg f8 [e8 \grg f8 A8] |
+  \birl a4 \grg e8 [c8]  \grg e8 [f8 \grg e8 c8] |
+  \darodo b4 \grg c8 [e8] \dblf f4 \grg e8 [A8] |
+  \break
+  \birl a4 \grg e8 [c8] \grg e8 [f8 \grg e8 c8] |
+  \gbirl a4 \grg c8 [e8] \grg f8 [e8 \grg f8 A8] |
+  \birl a4 \grg e8 [g8] \grA f8 [d8 \grg e8 c8] |
+  \darodo b4 \grg c8 [e8] \grg f8 [e8 \grg f8 g8] |
+  \break
+  \shakeAbutGood A4 \grg A8 [e8] \grg f8 [e8 \grg c8 e8] |
+  \shakeAbutGood A4 \grg A8 [e8] \dblf f4 \grg e8 [f8] |
+  \shakeAbutGood A4 \grg A8 [e8] \grg f8 [e8 \grg c8 e8] |
+  \darodo b4 \grg c8 [e8] \grg f8 [e8 \grg f8 g8] |
+  \break
+  \shakeAbutGood A4 c8 [A8] e8 [A8 c8 e8] |
+  \shakeAbutGood A4 c8 [A8] f8 [e8 \grg f8 A8] |
+  \birl a4 \grg e8 [g8] \grA f8 [d8 \grg e8 c8] |
+  \darodo b4 \grg c8 [e8] \dblf f4 \grg f8 [e8] \bar "|."
+}
+
 smellingFresh = {
   \time 2/2
   \grg c8 [d8] \shaked d4  \grg a8 [d8 \grG d8 a8] |
@@ -663,12 +688,26 @@ smellingFresh = {
   \new Staff
     \new Voice {
       \global
+      \bessieMacIntyre
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Bessie MacIntyre"}
+    opus = "W. MacLean Arr S. Wiley"
+    meter = "Reel"
+    title = ##f
+  }
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
       \smellingFresh
     }
   \header{
     piece = \markup {\fontsize #3 "Smelling Fresh"}
     opus = "Gordon Duncan Arr S. Wiley"
-    meter = "Strathspey"
+    meter = "Reel"
     title = ##f
   }
 }
