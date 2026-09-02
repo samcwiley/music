@@ -460,12 +460,71 @@ smellingFresh = {
   \grg f8 [\gre f8 \grg f8 A8] e8 [f8 \grg f8 \gre f8] |
   \birl a8 [A8 a8 A8] \grg A8 [a8 \dblA A8 a8] |
   \grg f8 [a8 \grg f8 d8] \grg a8 [b8] \shakeb b4 |
-  \break
+  
+}
+
+smellingFreshOne = {
   \grg a8 [b8 \grG b8 a8] \shaked d4 \grg e8 [a8] |
   \grg e8 [f8 \birl a8 A8] f8 [e8 \grg d8 a8] |
-  \grg b8 [d8 \grg e8 f8] A2 |
-  \grg A8 [f8 \grg e8 f8] \grg e8 [d8 \grg b8 a8] |
-  \thrwd d2 ~ d2 \bar "|."
+  \grg b8 [d8 \grg e8 f8] \dblA A2~ |
+  \time 3/2
+  A2~A2~A2 |
+  \break
+  \time 2/2
+  \thrwd d1 |
+  d1~ |
+  d1~ |
+  d1 |
+  A8 [f8 \grg e8 f8] \grg e8 [d8 \grg b8 a8] |
+  \thrwd d1 \bar "|."
+}
+
+smellingFreshTwo = {
+  \grg e8 [f8 \gre f8 e8] \grg f8[\gre f8 A8 d8] |
+  \grg a8 [\grd a8 \grg d8 f8] A8 [\grg A8 f8 d8] |
+  \grg G8 [a8 \grd a8 d8] \grg d2~ |
+  \time 3/2
+  d4 c8 [b8] \grip c2~c2 |
+  \break
+  \time 2/2
+  \hdblhide \grg d2 b2 |
+  \grg a2 b2 |
+  \grg G2 a2 |
+  \grg b2~b2 |
+  \grg a1~ |
+  a1 \bar "|."
+}
+
+smellingFreshThree = {
+  \grg a8 [b8 \grG b8 a8] \shaked d4 \grg e8 [a8] |
+  \grg e8 [f8 \birl a8 A8] f8 [e8 \grg d8 a8] |
+  \grg b8 [d8 \grg e8 f8] \grg f2~ |
+  \time 3/2 
+  f2 \grg e2~e2 |
+  \break
+  \time 2/2
+  \hdblhide \grg d2 g2 |
+  \grA f2 g2 |
+  \grA b2 f2 |
+  \grA g2~g2 |
+  \grA f1~ |
+  f1 \bar "|."
+}
+
+smellingFreshFour = {
+  \grg a8 [b8 \grG b8 a8] \shaked d4 \grg e8 [a8] |
+  \grg e8 [f8 \birl a8 A8] f8 [e8 \grg d8 a8] |
+  \grg b8 [d8 \grg e8 f8] A2~ |
+  \time 3/2
+  A2~A2~A2 |
+  \break
+  \time 2/2
+  \dblhide d2 G2 |
+  d2 G2~ |
+  G2 a2 |
+  \grg G2~G2 |
+  \grg d1~ |
+  d1 \bar "|."
 }
   
   
@@ -710,6 +769,31 @@ smellingFresh = {
     meter = "Reel"
     title = ##f
   }
+}
+
+\score {
+  \new StaffGroup <<
+    \new Staff 
+      \new Voice {
+        \global
+        \smellingFreshOne
+      }
+    \new Staff
+      \new Voice {
+        \global
+        \smellingFreshTwo
+      }
+    \new Staff
+      \new Voice {
+        \global
+        \smellingFreshThree
+      }
+    \new Staff
+      \new Voice {
+        \global
+        \smellingFreshFour
+      }
+  >>
 }
 
 }
