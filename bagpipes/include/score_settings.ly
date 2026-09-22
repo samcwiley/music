@@ -26,7 +26,7 @@
 \layout
 {
   	  indent = 0
-  	  %	\context { \Score \remove "Bar_number_engraver"}
+  	  \context { \Score \remove "Bar_number_engraver"}
   	  ragged-right = ##f
           ragged-last = ##f
           footnote-auto-numbering = ##t
@@ -39,7 +39,7 @@
  
 ScoreLayout = \layout {
                         indent = 0
-                        %	\context { \Score \remove "Bar_number_engraver"}
+                        \context { \Score \remove "Bar_number_engraver"}
                         ragged-right = ##f
                         ragged-last = ##f
                         \context { 
