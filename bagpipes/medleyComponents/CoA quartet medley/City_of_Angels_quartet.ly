@@ -208,39 +208,38 @@ flora = {
   \repeat volta 2 {
     \dblA A4 f8 A8 [e8 \gra e8] |
     \grg f8 [c8 \grG c8] \dble e4 f8 |
-    \alternative {{\grg e8 \birl a4 \dblf f4 c8}{\grg e8 \birl a4 f8 [\grg f8 c8]}} |
+    \grg e8 \birl a4 \dblf f4 c8 |
     \grg e8 \birl a4 \dblf f8 [e8 c8] |
     \break
     \dblA A4 f8 A8 [e8 \gra e8] |
     \grg f8 [c8 \grG c8] \dble e8 [c8 e8] |
     \grg f8 [c8 \grG c8] \dble e8 [c8 b8] |
-    \alternative {{\grg a8 [\grd a8 \gre a8] \grg a8 [\grd c8 e8]} {\gbirl a4. \wbirl a4.}}
+    \alternative {{\grg a8 [\grd a8 \gre a8] \grg a8 [\grd c8 e8]} {\gbirl a4. ~ a4.}}
   }
 }
 
 matchaPilates = {
   \time 4/4
-  \slurb b4 \thrwd d8. [e16] \dblf f8. [b16] \dbld d8. [c16] |
-  \slurb b4 \thrwd d8. [f16] \dble e4 \grg e8. [d16] |
+  \slurb b4 \thrwd d8. [e16] \dblf f8. [b16] \thrwd d8. [c16] |
+  \slurb b4 \thrwd d8. [f16] \dble e4 \gra e8. [d16] |
   \grg c16 [b16 \grG a8] \dble e8. [a16] \grg f16 [A8 a16] \dble e8. [a16] |
   \grg c16 [b16 \grG a8] \grg c8. [d16] \dble e4 \gra e8. [f16] |
   \break
-  \grg d16 [c16 b8] \thrwd d8. [e16] \dblf f8. [b16] \dbld d8. [c16] |
+  \grg d16 [c16 b8] \thrwd d8. [e16] \dblf f8. [b16] \thrwd d8. [c16] |
   \slurb b4 \thrwd d8. [f16] \dble e4 \thrwd d8. [e16] |
-  \grg f16 [A8.] b16 [c16 d8] \grg b8. [f16] \dble e8. [c16] |
+  \grg f16 [A8.] b16 [c16 d8] \grg b16 [f8.] \dble e8. [c16] |
   \partial 16*15 \grg d16 [e16 f8] \grg e16 [d16 c8] \grg b4 \taor b8. \bar "||"
   \break
   % part 2
   \pickup 16 g16 |
   \grA f16 [A8.] b16 [c16 d8] \grg b8. [f16] \thrwd d8. [b16] |
-  \dblc c16 [\gre a8.] \grg b16 [c16 d8] \dble e4 \grg e8. [d16] |
-  \grg c16 [b16 \grG a8] \dble e8. [a16] \grg f16 [A8 a16] \dble e8. [a16] |
+  \dblc c16 [\gre a8.] \grg b16 [c16 d8] \dble e4 \gra e8. [d16] |
   \grg c16 [b16 \grG a8] \dble e8. [a16] \grg f16 [A8 a16] \dble e8. [a16] |
   \grg c16 [b16 \grG a8] \grg c8. [d16] \dble e4 \gra e8. [g16] |
   \break
   \grA f16 [A8.] b16 [c16 d8] \grg b8. [f16] \thrwd d8. [b16] |
   \dblc c16 [\gre a8.] \grg b16 [c16 d8] \dble e4 \thrwd d8. [e16] |
-  \grg f16 [A8.] b16 [c16 d8] \grg b8. [f16] \dble e8. [c16] |
+  \grg f16 [A8.] b16 [c16 d8] \grg b16 [f8.] \dble e8. [c16] |
   \grg d16 [e16 f8] \grg e16 [d16 c8] \grg b4 \taor b4 \bar "|."
 }
 
@@ -409,15 +408,18 @@ traversingTraditionThirds = {
 
 shakeAbutGood = { \pgrace { A32[ g A g] } }
 
-bessieMacIntyre = {
+bessieMacIntyreLineOne = {
   \time 2/2
-  \gbirl a4 \grg e8 [c8] \grg e8 [f8 \grg e8 c8] |
-  \gbirl a4 \grg c8 [e8] \grg f8 [e8 \grg f8 A8] |
+  \grg a4 \grg e8 [c8] \grg e8 [f8 \grg e8 c8] |
+  \grg a8 [\grd a8 \grg c8 e8] \grg f8 [e8 \grg f8 A8] |
   \birl a4 \grg e8 [c8]  \grg e8 [f8 \grg e8 c8] |
   \darodo b4 \grg c8 [e8] \dblf f4 \grg e8 [A8] |
   \break
+}
+
+bessieOne = {
   \birl a4 \grg e8 [c8] \grg e8 [f8 \grg e8 c8] |
-  \gbirl a4 \grg c8 [e8] \grg f8 [e8 \grg f8 A8] |
+  \grg a8 [\grd a8 \grg c8 e8] \grg f8 [e8 \grg f8 A8] |
   \birl a4 \grg e8 [g8] \grA f8 [d8 \grg e8 c8] |
   \darodo b4 \grg c8 [e8] \grg f8 [e8 \grg f8 g8] |
   \break
@@ -427,7 +429,24 @@ bessieMacIntyre = {
   \darodo b4 \grg c8 [e8] \grg f8 [e8 \grg f8 g8] |
   \break
   \shakeAbutGood A4 c8 [A8] e8 [A8 c8 e8] |
-  \shakeAbutGood A4 c8 [A8] f8 [e8 \grg f8 A8] |
+  \shakeAbutGood A4 e8 [A8] c8 [A8 b8 A8] |
+  \birl a4 \grg e8 [g8] \grA f8 [d8 \grg e8 c8] |
+  \darodo b4 \grg c8 [e8] \dblf f4 \grg f8 [e8] \bar "|."
+}
+
+bessieTwo = {
+  \gbirl a4 \grg e8 [c8] \grg e8 [f8 \grg e8 c8] |
+  \grg c8 [\grd c8 \grg a8 \grd c8] \grg d8 [c8 \grg d8 f8] |
+  \grg a8 [\grd a8 \grg e8 g8] \grA d8 [a8 \grg c8 a8] |
+  \darodo b4 \grg c8 [e8] \grg d8 [c8 \grg d8 e8] |
+  \break
+  \shakeAbutGood A4 \grg A8 [e8] \grg f8 [e8 \grg c8 e8] |
+  \shakeAbutGood A4 \grg A8 [e8] \dblf f4 \grg e8 [f8] |
+  \shakeAbutGood A4 \grg A8 [c8] \grg d8 [c8 \grg a8 c8] |
+  \darodo b4 \grg a8 [\grd c8] \grg d8 [c8 \grg d8 e8] |
+  \break
+  \shakeAbutGood A4 a8 [A8] c8 [A8 a8 \grd c8] |
+  \shakeAbutGood A4 c8 [A8] a8 [A8 d8 A8] |
   \birl a4 \grg e8 [g8] \grA f8 [d8 \grg e8 c8] |
   \darodo b4 \grg c8 [e8] \dblf f4 \grg f8 [e8] \bar "|."
 }
@@ -447,7 +466,7 @@ smellingFresh = {
   % part 2
   \grg f8 [A8 g8 A8] f8 [A8 e8 f8] |
   \grg f8 [\gre f8 \grg f8 A8] e8 [f8 \grg f8 \gre f8] |
-  \birl a8 [A8 a8 A8] \grg A8 [a8 \dblA A8 a8] |
+  \birl a8 [A8 a8 A8] \grg A8 [a8 A8 a8] |
   \grg f8 [a8 \grg f8 d8] \grg a8 [b8] \shakeb b4 |
   \break
   \grg a8 [b8 \grG b8 a8] \shaked d4 \grg e8 [a8] |
@@ -458,9 +477,37 @@ smellingFresh = {
   % part 2b
   \grg f8 [A8 g8 A8] f8 [A8 e8 f8] |
   \grg f8 [\gre f8 \grg f8 A8] e8 [f8 \grg f8 \gre f8] |
-  \birl a8 [A8 a8 A8] \grg A8 [a8 \dblA A8 a8] |
+  \birl a8 [A8 a8 A8] \grg A8 [a8 A8 a8] |
   \grg f8 [a8 \grg f8 d8] \grg a8 [b8] \shakeb b4 |
-  
+}
+
+smellingFreshSeconds = {
+  \time 2/2
+  \grg c8 [d8] \shaked d4  \grg a8 [d8 \grG d8 a8] |
+  \grg b8 [d8 \dble e8 a8] \shaked d4 \grg b8 [a8] |
+  \grg b8 [e8 \grg e8 \gra e8] \dble e8 [d8 \grg b8 a8] |
+  \grg b8 [e8] \dare f4 A8 [f8 \grg e8 f8] |
+  \break
+  \grg e8 [f8 \grg f8 \gre f8] \grg d8 [f8 \gre f8 d8] |
+  \grg d8 [f8 A8 e8] \grg f8 [\gre f8 \grg e8 d8] |
+  \grg G8 [a8 \grg a8 d8] \grg f4. d8 |
+  \grg f8 [d8 \grg a8 A8] e8 [f8 \grg f8 \gre f8] |
+  \break
+  % part 2
+  \grg f8 [A8 g8 A8] f8 [A8 e8 f8] |
+  \grg f8 [\gre f8 \grg f8 A8] e8 [f8 \grg f8 \gre f8] |
+  \birl a8 [A8 a8 A8] \grg A8 [a8 A8 a8] |
+  \grg f8 [a8 \grg f8 d8] \grg a8 [b8] \shakeb b4 |
+  \break
+  \grg e8 [f8 \gre f8 e8] \grg f8[\gre f8 A8 d8] |
+  \grg a8 [\grd a8 \grg d8 f8] A8 [\grg A8 f8 d8] |
+  \grg G8 [a8 \grd a8 d8] \grg f4. d8 |
+  \grg f8 [d8 \grg a8 A8] \grg A8 f8 \grg d8 e8] |
+  % part 2b
+  \grg d8 [f8 \grg e8 f8] \grg d8 [f8 \grg c8 d8] |
+  \grg d8 [\grG d8 \grg d8 f8] \grg c8 [d8 \grg d8 \grG d8] |
+  \grg d8 [f8 d8 f8] \grg f8 [d8 \grg f8 d8] |
+  \grg d8 [\grG d8 \grg d8 f8] \grg f8 [d8 \grg d8 \grG d8] |
 }
 
 smellingFreshOne = {
@@ -747,7 +794,7 @@ smellingFreshFour = {
   \new Staff
     \new Voice {
       \global
-      \bessieMacIntyre
+      \bessieMacIntyreLineOne
     }
   \header{
     piece = \markup {\fontsize #3 "Bessie MacIntyre"}
@@ -758,11 +805,33 @@ smellingFreshFour = {
 }
 
 \score {
-  \new Staff
-    \new Voice {
-      \global
-      \smellingFresh
-    }
+  \new StaffGroup <<
+    \new Staff 
+      \new Voice {
+        \global
+        \bessieOne
+      }
+    \new Staff
+      \new Voice {
+        \global
+        \bessieTwo
+      }
+  >>
+}
+
+\score {
+  \new StaffGroup <<
+    \new Staff 
+      \new Voice {
+        \global
+        \smellingFresh
+      }
+    \new Staff
+      \new Voice {
+        \global
+        \smellingFreshSeconds
+      }
+  >>
   \header{
     piece = \markup {\fontsize #3 "Smelling Fresh"}
     opus = "Gordon Duncan Arr S. Wiley"
