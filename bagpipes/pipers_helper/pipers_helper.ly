@@ -404,7 +404,7 @@ doubleCImprovement = {
   
   
 \book {
-  \bookOutputName "Piper's Tutor"  
+  \bookOutputName "pipers_helper"  
 \header { 
           title = \markup  \override #'(line-width . 82) 
           { 
