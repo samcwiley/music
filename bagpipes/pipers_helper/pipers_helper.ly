@@ -402,7 +402,260 @@ doubleCImprovement = {
   \break
 }  
   
+doubleD = {
+  \time 2/4
+  G8 [\dbld d8] a8 [\dbld d8] |
+  b8 [\dbld d8] c8 [\dbld d8] |
+  \grg d8 [\dbld d8] e8 [\dbld d8] |
+  f8 [\dbld d8] g8 [\tdbld d8] |
+  \break
+  A8 [\hdbld d8] A8 [\hdbld d8] |
+  g8 [\tdbld d8] f8 [\dbld d8] |
+  e8 [\dbld d8] \grg d8 [\dbld d8] |
+  c8 [\dbld d8] b8 [\dbld d8] |
+  a8 [\dbld d8] G8 [\dbld d8] \bar "|."
+  \break
+}
   
+  
+doubleDBroken = {
+  \time 3/4
+  G4 \grg d4 \gre d4 |
+  a4 \grg d4 \gre d4 |
+  b4 \grg d4 \gre d4 |
+  c4 \grg d4 \gre d4 | 
+  
+  \grg d4 \grg d4 \gre d4 |
+  e4 \grg d4 \gre d4 |
+  f4 \grg d4 \gre d4 |
+  g4 \grA d4 \gre d4 |
+  
+  \break
+  A4 d4 \gre d4 |
+  g4 \grA d4 \gre d4 |
+  f4 \grg d4 \gre d4 | 
+  e4 \grg d4 \gre d4 |
+  
+  \grg d4 \grg d4 \gre d4 |
+  c4 \grg d4 \gre d4 | 
+  b4 \grg d4 \gre d4 |
+  a4 \grg d4 \gre d4 |
+  
+  G4 \grg d4 \gre d4 | \bar "|."
+}
+
+doubleDImprovement = {
+  \time 4/4
+  G4 \grg d4 G4 \grg d8 [\gre d8] |
+  a4 \grg d4 a4 \grg d8 [\gre d8] | 
+  b4 \grg d4 b4 \grg d8 [\gre d8] |
+  
+  c4 \grg d4 c4 \grg d8 [\gre d8] |
+  e4 \grg d4 e4 \grg d8 [\gre d8] |
+  f4 \grg d4 f4 \grg d8 [\gre d8] |
+  \break
+  g4 \grA d4 g4 \grA d8 [\gre d8] |
+  A4 d4 A4  d8 [\gre d8] |
+  g4 \grA d4 g4 \grA d8 [\gre d8] 
+  
+  f4 \grg d4 f4 \grg d8 [\gre d8] |
+  e4 \grg d4 e4 \grg d8 [\gre d8] |
+  c4 \grg d4 c4 \grg d8 [\gre d8] |
+  \break
+  b4 \grg d4 b4 \grg d8 [\gre d8] |
+  a4 \grg d4 a4 \grg d8 [\gre d8] |
+  G4 \grg d4 G4 \grg d8 [\gre d8] \bar "|."
+  \break
+}
+
+doubleE = {
+  \time 2/4
+  G8 [\dble e8] a8 [\dble e8] |
+  b8 [\dble e8] c8 [\dble e8] |
+  d8 [\dble e8] \grg e8 [\dble e8] |
+  f8 [\dble e8] g8 [\tdble e8] |
+  \break
+  A8 [\hdble e8] A8 [\hdble e8] |
+  g8 [\tdble e8] f8 [\dble e8] |
+  \grg e8 [\dble e8] d8 [\dble e8] |
+  c8 [\dble e8] b8 [\dble e8] |
+  a8 [\dble e8] G8 [\dble e8] \bar "|."
+  \break
+}
+  
+  
+doubleEBroken = {
+  \time 3/4
+  G4 \grg e4 \grf e4 |
+  a4 \grg e4 \grf e4 |
+  b4 \grg e4 \grf e4 |
+  c4 \grg e4 \grf e4 | 
+  
+  d4 \grg e4 \grf e4 |
+  e4 \grg e4 \grf e4 |
+  f4 \grg e4 \grf e4 |
+  g4 \grA e4 \grf e4 |
+  
+  \break
+  A4 e4 \grf e4 |
+  g4 \grA e4 \grf e4 |
+  f4 \grg e4 \grf e4 | 
+  \grg e4 \grg e4 \grf e4 |
+  
+  d4 \grg e4 \grf e4 |
+  c4 \grg e4 \grf e4 | 
+  b4 \grg e4 \grf e4 |
+  a4 \grg e4 \grf e4 |
+  
+  G4 \grg e4 \grf e4 | \bar "|."
+}
+
+doubleEImprovement = {
+  \time 4/4
+  G4 \grg e4 G4 \grg e8 [\grf e8] |
+  a4 \grg e4 a4 \grg e8 [\grf e8] | 
+  b4 \grg e4 b4 \grg e8 [\grf e8] |
+ 
+  c4 \grg e4 c4 \grg e8 [\grf e8] |
+  d4 \grg e4 d4 \grg e8 [\grf e8] |
+  f4 \grg e4 f4 \grg e8 [\grf e8] |
+  \break
+  g4 \grA e4 g4 \grA e8 [\grf e8] |
+  A4 e4 A4  e8 [\grf e8] |
+  g4 \grA e4 g4 \grA e8 [\grf e8] 
+  
+  f4 \grg e4 f4 \grg e8 [\grf e8] |
+  d4 \grg e4 d4 \grg e8 [\grf e8] |
+  c4 \grg e4 c4 \grg e8 [\grf e8] |
+  \break
+  b4 \grg e4 b4 \grg e8 [\grf e8] |
+  a4 \grg e4 a4 \grg e8 [\grf e8] |
+  G4 \grg e4 G4 \grg e8 [\grf e8] \bar "|."
+  \break
+}
+
+doubleF = {
+  \time 2/4
+  G8 [\dblf f8] a8 [\dblf f8] |
+  b8 [\dblf f8] c8 [\dblf f8] |
+  d8 [\dblf f8] e8 [\dblf f8] |
+  \grg f8 [\dblf f8] g8 [\tdblf f8] |
+  \break
+  A8 [\hdblf f8] A8 [\hdblf f8] |
+  g8 [\tdble f8] \grg f8 [\dblf f8] |
+  e8 [\dblf f8] d8 [\dblf f8] |
+  c8 [\dblf f8] b8 [\dblf f8] |
+  a8 [\dblf f8] G8 [\dblf f8] \bar "|."
+  \break
+}
+  
+  
+doubleFBroken = {
+  \time 3/4
+  G4 \grg f4 \grg f4 |
+  a4 \grg f4 \grg f4 |
+  b4 \grg f4 \grg f4 |
+  c4 \grg f4 \grg f4 | 
+  
+  d4 \grg f4 \grg f4 |
+  e4 \grg f4 \grg f4 |
+  f4 \grg f4 \grg f4 |
+  g4 \grA f4 \grg f4 |
+  
+  \break
+  A4 f4 \grg f4 |
+  g4 \grA f4 \grg f4 |
+  \grg f4 \grg f4 \grg f4 | 
+  e4 \grg f4 \grg f4 |
+  
+  d4 \grg f4 \grg f4 |
+  c4 \grg f4 \grg f4 | 
+  b4 \grg f4 \grg f4 |
+  a4 \grg f4 \grg f4 |
+  
+  G4 \grg f4 \grg f4 | \bar "|."
+}
+
+doubleFImprovement = {
+  \time 4/4
+  G4 \grg f4 G4 \grg f8 [\grg f8] |
+  a4 \grg f4 a4 \grg f8 [\grg f8] | 
+  b4 \grg f4 b4 \grg f8 [\grg f8] |
+ 
+  c4 \grg f4 c4 \grg f8 [\grg f8] |
+  d4 \grg f4 d4 \grg f8 [\grg f8] |
+  e4 \grg f4 e4 \grg f8 [\grg f8] |
+  \break
+  g4 \grA f4 g4 \grA f8 [\grg f8] |
+  A4 f4 A4  f8 [\grg f8] |
+  g4 \grA f4 g4 \grA f8 [\grg f8] 
+  
+  e4 \grg f4 f4 \grg f8 [\grg f8] |
+  d4 \grg f4 d4 \grg f8 [\grg f8] |
+  c4 \grg f4 c4 \grg f8 [\grg f8] |
+  \break
+  b4 \grg f4 b4 \grg f8 [\grg f8] |
+  a4 \grg f4 a4 \grg f8 [\grg f8] |
+  G4 \grg f4 G4 \grg f8 [\grg f8] \bar "|."
+  \break
+}
+
+doubleHG = {
+  \time 2/4
+  G8 [\dblg g8] a8 [\dblg g8] |
+  b8 [\dblg g8] c8 [\dblg g8] |
+  d8 [\dblg g8] e8 [\dblg g8] |
+  f8 [\dblg g8] e8 [\dblg g8] |
+  
+  d8 [\dblg g8] c8 [\dblg g8] |
+  b8 [\dblg g8] a8 [\dblg g8]
+  G8 [\dblg g8] a4 \bar "|." |
+  \break
+}
+  
+  
+doubleHGBroken = {
+  \time 3/4
+  G4 \grg f4 g4 |
+  a4 \grg f4 g4 | |
+  b4 \grg f4 g4 |
+  c4 \grg f4 g4 | 
+  
+  d4 \grg f4 g4 |
+  e4 \grg f4 g4 |
+  f4 \grg f4 g4 |
+  e4 \grg f4 g4 |
+  
+  d4 \grg f4 g4 |
+  c4 \grg f4 g4 |
+  b4 \grg f4 g4 | 
+  a4 \grg f4 g4 |
+  
+  G4 \grg f4 g4 \bar "|."
+}
+
+doubleHGImprovement = {
+  \time 4/4
+  G4 \grg f4 G4 \grg f16 [g8.] |
+  a4 \grg f4 a4 \grg f16 [g8.] | 
+  b4 \grg f4 b4 \grg f16 [g8.] |
+ 
+  c4 \grg f4 c4 \grg f16 [g8.] |
+  d4 \grg f4 d4 \grg f16 [g8.] |
+  e4 \grg f4 e4 \grg f16 [g8.] |
+  \break
+  f4 g4 f4 f16 [g8.] |
+  
+  e4 \grg f4 f4 \grg f16 [g8.] |
+  d4 \grg f4 d4 \grg f16 [g8.] |
+  c4 \grg f4 c4 \grg f16 [g8.] |
+  b4 \grg f4 b4 \grg f16 [g8.] |
+  a4 \grg f4 a4 \grg f16 [g8.] |
+  G4 \grg f4 G4 \grg f16 [g8.] \bar "|."
+  \break
+}
+
+
 \book {
   \bookOutputName "pipers_helper"  
 \header { 
@@ -660,10 +913,10 @@ doubleCImprovement = {
   \new Staff
     \new Voice {
       \global
-      \doubleC
+      \doubleD
     }
   \header{
-    piece = \markup {\fontsize #3 "Double C"}
+    piece = \markup {\fontsize #3 "Double D"}
     opus = ""
     meter = ""
     title = ##f
@@ -674,10 +927,10 @@ doubleCImprovement = {
   \new Staff
     \new Voice {
       \global
-      \doubleCBroken
+      \doubleDBroken
     }
   \header{
-    piece = \markup {\fontsize #3 "Double C, broken down"}
+    piece = \markup {\fontsize #3 "Double D, broken down"}
     opus = ""
     meter = ""
     title = ##f
@@ -688,10 +941,136 @@ doubleCImprovement = {
   \new Staff
     \new Voice {
       \global
-      \doubleCImprovement
+      \doubleDImprovement
     }
   \header{
-    piece = \markup {\fontsize #3 "Double C for Improvement"}
+    piece = \markup {\fontsize #3 "Double D for Improvement"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \doubleE
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Double E"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \doubleEBroken
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Double E, broken down"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \doubleEImprovement
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Double E for Improvement"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \doubleF
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Double F"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \doubleFBroken
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Double F, broken down"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \doubleFImprovement
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Double F for Improvement"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \doubleHG
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Double High G"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \doubleHGBroken
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Double High G, broken down"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \doubleHGImprovement
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Double High G for Improvement"}
     opus = ""
     meter = ""
     title = ##f
