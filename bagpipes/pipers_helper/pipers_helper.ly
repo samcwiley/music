@@ -655,6 +655,63 @@ doubleHGImprovement = {
   \break
 }
 
+doubleHA = {
+  \time 2/4
+  G8 [\dblA A8] a8 [\dblA A8] |
+  b8 [\dblA A8] c8 [\dblA A8] |
+  d8 [\dblA A8] e8 [\dblA A8] |
+  f8 [\dblA A8] g8 [\dblA A8] |
+  
+  f8 [\dblA A8] e8 [\dblA A8] |
+  d8 [\dblA A8] c8 [\dblA A8] |
+  b8 [\dblA A8] a8 [\dblA A8] |
+  G8 [\dblA A8] a4 \bar "|." |
+  \break
+}
+  
+  
+doubleHABroken = {
+  \time 3/4
+  G4 A4 \grg A4 |
+  a4 A4 \grg A4 |
+  b4 A4 \grg A4 |
+  c4 A4 \grg A4 | 
+  
+  d4 A4 \grg A4 |
+  e4 A4 \grg A4 |
+  f4 A4 \grg A4 |
+  g4 A4 \grg A4 |
+  \break
+  f4 A4 \grg A4 |
+  e4 A4 \grg A4 |
+  d4 A4 \grg A4 | 
+  c4 A4 \grg A4 |
+  
+  b4 A4 \grg A4 |
+  a4 A4 \grg A4 |
+  G4 A4 \grg A4 \bar "|."
+}
+
+doubleHAImprovement = {
+  \time 4/4
+  G4 A4 G4 A16 [\grg A8.] |
+  a4 A4 a4 A16 [\grg A8.] | 
+  b4 A4 b4 A16 [\grg A8.] |
+ 
+  c4 A4 c4 A16 [\grg A8.] |
+  d4 A4 d4 A16 [\grg A8.] |
+  e4 A4 e4 A16 [\grg A8.] |
+  \break
+  f4 A4 f4 A16 [\grg A8.] |
+  
+  g4 A4 g4 A16 [\grg A8.] |
+  f4 A4 f4 A16 [\grg A8.] |
+  e4 A4 e4 A16 [\grg g8.] |
+  d4 A4 d4 A16 [\grg g8.] |
+  c4 A4 c4 A16 [\grg A8.] |
+  G4 A4 G4 \grg A16 [\grg A8.] \bar "|."
+  \break
+}
 
 \book {
   \bookOutputName "pipers_helper"  
@@ -1071,6 +1128,48 @@ doubleHGImprovement = {
     }
   \header{
     piece = \markup {\fontsize #3 "Double High G for Improvement"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \doubleHA
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Double High A"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \doubleHABroken
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Double High A, broken down"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \doubleHAImprovement
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Double High A for Improvement"}
     opus = ""
     meter = ""
     title = ##f
