@@ -902,7 +902,143 @@ dThrowLightBroken = {
   b8 [G8] \grd c8 [d8] |
   a8 [G8] \grd c8 [d8] |
   
-  G4 \grd c8 [d8] |
+  G4 \grd c8 [d8] \bar "|."
+}
+
+tachums = {
+  \time 2/4 
+  \grg c8 [\grd a8] \grg c8 [\grd a8] |
+  \grg c8 [\grd a8] \grg c8 [\grd a8] |
+  \grg b8 [\grd G8] \grg b8 [\grd G8] |
+  \grg b8 [\grd G8] \grg b8 [\grd G8] |
+  
+  \grg c8 [\grd a8] \grg c8 [\grd a8] |
+  \grg b8 [\grd G8] \grg b8 [\grd G8] |
+  \grg c8 [\grd a8] \grg b8 [\grd G8] |
+  \grg a4 \grg a4 \bar ":|."
+  \break
+  \grg c16 [\grd a8.] \grg c16 [\grd a8.] |
+  \grg c16 [\grd a8.] \grg c16 [\grd a8.] |
+  \grg b16 [\grd G8.] \grg b16 [\grd G8.] |
+  \grg b16 [\grd G8.] \grg b16 [\grd G8.] |
+  
+  \grg c16 [\grd a8.] \grg c16 [\grd a8.] |
+  \grg b16 [\grd G8.] \grg b16 [\grd G8.] |
+  \grg c16 [\grd a8.] \grg b16 [\grd G8.] |
+  \grg a4 \grg a4 \bar ":|."
+}
+
+tachumsTwo = {
+  \time 6/8
+  % STRAIGHT
+  \grg c8 [\grd a8 \gre a8] \grg c8 [\grd a8 \gre a8] |
+  \grg c8 [\grd a8 \gre a8] \grg c8 [\grd a8 \gre a8] |
+  \grg b8 [\grd G8 \gre G8] \grg b8 [\grd G8 \gre G8] |
+  
+  \grg b8 [\grd G8 \gre G8] \grg b8 [\grd G8 \gre G8] |
+  \grg c8 [\grd a8 \gre a8] \grg c8 [\grd a8 \gre a8] |
+  \grg b8 [\grd G8 \gre G8] \grg b8 [\grd G8 \gre G8] |
+  
+  \grg c8 [\grd a8 \gre a8] \grg b8 [\grd G8 \gre G8] |
+  \grg a8 [\grd a8 \gre a8] \grg a8 [\grd a8 \gre a8] \bar "||"
+  \break
+  
+  % DOT CUT
+  
+  \grg c8. [\grd a16 \gre a8] \grg c8. [\grd a16 \gre a8] |
+  \grg c8. [\grd a16 \gre a8] \grg c8. [\grd a16 \gre a8] |
+  \grg b8. [\grd G16 \gre G8] \grg b8. [\grd G16 \gre G8] |
+  
+  \grg b8. [\grd G16 \gre G8] \grg b8. [\grd G16 \gre G8] |
+  \grg c8. [\grd a16 \gre a8] \grg c8. [\grd a16 \gre a8] |
+  \grg b8. [\grd G16 \gre G8] \grg b8. [\grd G16 \gre G8] |
+  
+  \grg c8. [\grd a16 \gre a8] \grg b8. [\grd G16 \gre G8] |
+  \grg a8. [\grd a16 \gre a8] \grg a8. [\grd a16 \gre a8] \bar "||"
+  \break
+  % CUT DOT
+  \grg c16 [\grd a8. \gre a8] \grg c16 [\grd a8. \gre a8] |
+  \grg c16 [\grd a8. \gre a8] \grg c16 [\grd a8. \gre a8] |
+  \grg b16 [\grd G8. \gre G8] \grg b16 [\grd G8. \gre G8] |
+  
+  \grg b16 [\grd G8. \gre G8] \grg b16 [\grd G8. \gre G8] |
+  \grg c16 [\grd a8. \gre a8] \grg c16 [\grd a8. \gre a8] |
+  \grg b16 [\grd G8. \gre G8] \grg b16 [\grd G8. \gre G8] |
+  
+  \grg c16 [\grd a8. \gre a8] \grg b16 [\grd G8. \gre G8] |
+  \grg a16 [\grd a8. \gre a8] \grg a16 [\grd a8. \gre a8] \bar "|."
+  \break
+}
+
+shakesSlursHitBacks = {
+  \time 2/4
+  a8 [\grG a8] b8 [\grG b8] |
+  c8 [\grd c8] d8 [\grG d8] |
+  \grg d8 [\grc d8] e8 [\gra e8] |
+  f8 [\gre f8] g8 [\grf g8] |
+  
+  A8 [\grg A8] g8 [\grf g8] |
+  f8 [\gre f8] e8 [\gra e8] |
+  d8 [\grc d8] \grg d8 [\grG d8] |
+  c8 [\grG c8] b8 [\grG b8] |
+  a8 [\grG a8] G4 \bar ":|."
+}
+
+shakesSlursHitBacksTwo = {
+  \time 2/4
+  \slura a4 \slurb b4 |
+  \slurc c4 \wslurd d4 |
+  \slurd d4 \wslurd d4 |
+  \slurc c4 \slurb b4 |
+  
+  \slura a4 \grg a4 \bar ":|."
+}
+
+shakesSlursHitBacksBroken = {
+  \time 3/4
+  e4 \grg a4 \grG a4 |
+  e4 \grg b4 \grG b4 |
+  e4 \grg c4 \grG c4 |
+  e4 \grg d4 \grG d4 |
+  
+  e4 \grg d4 \grc d4 |
+  f4 \grg e4 \gra e4 |
+  g4 \grA f4 \gre f4 |
+  A4 g4 \grf g4 |
+  
+  A4 \grg A4 g4 |
+  A4 g4 \grf g4 |
+  \grA g4 \grA f4 \gre f4 |
+  \grg f4 \grg e4 \gra e4 |
+  
+  \grg e4 \grg d4 \grG d4 |
+  e4 \grg d4 \grc d4 |
+  e4 \grg c4 \grG c4 |
+  e4 \grg b4 \grG b4 |
+  
+  e4 \grg a4 \grG a4 \bar "|."
+}
+
+shakesSlursHitBacksImprovement = {
+  \time 4/4
+  e4 \grg a4 e4 \grg a8 [\grG a8] |
+  e4 \grg b4 e4 \grg b8 [\grG b8] |
+  e4 \grg c4 e4 \grg c8 [\grG c8] |
+  
+  e4 \grg d4 e4 \grg d8 [\grG d8] |
+  f4 \grg e4 f4 \grg e8 [\gra e8] |
+  g4 \grA f4 g4 \grA f8 [\gre f8] |
+  
+  A4 g4 A4 g8 [\grf g8] |
+  \grA g4 \grA f4 g4 \grA f8 [\gre f8] |
+  \grg f4 \grg e4 f4 \grg e8 [\gra e8] |
+  
+  \grg e4 \grg d4 e4 \grg d8 [\grc d8] |
+  e4 \grg d4 e4 \grg d8 [\grG d8] |
+  e4 \grg c4 e4 \grg c8 [\grG c8] |
+  
+  e4 \grg b4 e4 \grg b8 [\grG b8] |
+  e4 \grg a4 e4 \grg a8 [\grG a8] \bar "|."
 }
 
 \book {
@@ -1516,6 +1652,76 @@ dThrowLightBroken = {
     }
   \header{
     piece = \markup {\fontsize #3 "D Throws - Light Style, Broken Down"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \tachums
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Tachums"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \tachumsTwo
+    }
+  \header{
+    piece = \markup {\fontsize #3 "GDE Tachums"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \shakesSlursHitBacks
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Shakes, Slurs, and Hit Backs"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \shakesSlursHitBacksBroken
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Shakes, Slurs, and Hit Backs, Broken Down"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \shakesSlursHitBacksImprovement
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Shakes, Slurs, and Hit Backs for Improvement"}
     opus = ""
     meter = ""
     title = ##f
