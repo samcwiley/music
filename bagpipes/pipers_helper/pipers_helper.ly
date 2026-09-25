@@ -713,6 +713,198 @@ doubleHAImprovement = {
   \break
 }
 
+halfDoublings = {
+  \time 2/4
+  A8 [\hdbla a8] A8 [\hdblb b8] |
+  A8 [\hdblc c8] A8 [\hdbld d8] |
+  A8 [\hdble e8] A8 [\hdblf f8] |
+  A8 [\hdble e8] A8 [\hdbld d8] |
+  
+  A8 [\hdblc c8] A8 [\hdblb b8] |
+  A8 [\hdbla a8] A8 [\hdblG G8] \bar "|."
+}
+
+halfDoublingBroken = {
+  \time 3/4
+  A4 a4 \grd a4 |
+  A4 b4 \grd b4 |
+  A4 c4 \grc c4 |
+  A4 d4 \gre d |
+  
+  A4 e4\grf e4]|
+  A4 f4 \grg f4 |
+  A4 e4 \grf e4 |
+  A4 d4 \gre d4 |
+  
+  A4 c4 \grd c4 |
+  A4 b4 \grd b4 |
+  A4 a4 \grd a4 |
+  A4 G4 \grd G4 \bar "|."
+}
+
+halfDoublingImprovement = {
+  \time 4/4
+  a4 A4 a4 \grd a4 |
+  b4 A4 b4 \grd b4 |
+  c4 A4 c4 \grc c4 |
+  d4 A4 d4 \gre d4 |
+  
+  e4 A4 e4 \grf e4 |
+  f4 A4 f4 \grg f4 |
+  e4 A4 e4 \grf e4 |
+  d4 A4 d4 \gre d4 |
+  
+  c4 A4 c4 \grd c4 |
+  b4 A4 b4 \grd b4 |
+  a4 A4 a4 \grd a4 |
+  G4 A4 G4 \grd G4 \bar "|."
+}
+
+ThumbGracenotes = {
+  \time 2/4
+  g8 [\grA G8] g8 [\grA a8] |
+  g8 [\grA b8] g8 [\grA c8] |
+  g8 [\grA d8] g8 [\grA e8] |
+  g8 [\grA f8] g8 [\grA g8] |
+  
+  \grA g8 [\grA f8] g8 [\grA e8] |
+  g8 [\grA d8] g8 [\grA c8] |
+  g8 [\grA b8] g8 [\grA a8] |
+  g8 [\grA G8] \grA a4 \bar ":|."
+}
+
+ThumbGraceNotesTwo = {
+  \time 2/4
+  G8 [\grA g8] a8 [\grA g8] |
+  b8 [\grA g8] c8 [\grA g8] |
+  d8 [\grA g8] e8 [\grA g8] |
+  f8 [\grA g8] \grA g8 [A8] |
+  
+  g8 [\grA g8] f8 [\grA g8] |
+  e8 [\grA g8] d8 [\grA g8] |
+  c8 [\grA g8] b8 [\grA g8] |
+  a8 [\grA g8] G8 [\grA g8] \bar "|."
+}
+
+ThumbDoublings = {
+  \time 2/4
+  g8 [\tdblG G8] g8 [\tdbla a8] |
+  g8 [\tdblb b8] g8 [\tdblc c8] |
+  g8 [\tdbld d8] g8 [\tdble e8] |
+  
+  g8 [\tdblf f8] g8 [\tdble e8] |
+  g8 [\tdbld d8] g8 [\tdblc c8] |
+  g8 [\tdblb b8] g8 [\tdbla a8] \bar ":|."
+}
+
+ThumbDoublingBroken = {
+  \time 3/4
+  g4 \grA G4 \grd G4 |
+  g4 \grA a4 \grd a4 |
+  g4 \grA b4 \grd b4 |
+  
+  g4 \grA c4 \grc c4 |
+  g4 \grA d4 \gre d4 |
+  g4 \grA e4 \grf e4 |
+  
+  g4 \grA f4 \grg f4 |
+  g4 \grA e4 \grf e4 |
+  g4 \grA d4 \gre d4 |
+  
+  g4 \grA c4 \grd c4 |
+  g4 \grA b4 \grd b4 |
+  g4 \grA a4 \grd a4 |
+  g4 \grA G4 \grd G4 \bar "|."
+}
+
+ThumbDoublingImprovement = {
+  \time 4/4
+  g4 \grA G4 g4 \grA G8 [\grd G8] |
+  g4 \grA a4 g4 \grA a8 [\grd a8] |
+  g4 \grA b4 g4 \grA b8 [\grd b8] |
+  
+  g4 \grA c4 g4 \grA c8 [\grd c8] |
+  g4 \grA d4 g4 \grA d8 [\gre d8] |
+  g4 \grA e4 g4 \grA e8 [\grf e8] |
+  
+  g4 \grA f4 g4 \grA f8 [\grg f8] |
+  \break
+  g4 \grA e4 g4 \grA e8 [\grf e8] |
+  g4 \grA d4 g4 \grA d8 [\gre d8] |
+  
+  g4 \grA c4 g4 \grA c8 [\grd c8] |
+  g4 \grA b4 g4 \grA b8 [\grd b8] |
+  g4 \grA a4 g4 \grA a8 [\grd a8] |
+  
+  g4 \grA G4 g4 \grA G8 [\grd G8] \bar "|."
+  \break
+}
+
+dThrow = {
+  \time 2/4
+  G8 [\Gthrwd d8] a8 [\thrwd d8] |
+  b8 [\thrwd d8] c8 [\thrwd d8] |
+  \grg d8 [\thrwd d8] e8 [\thrwd d8] |
+  f8 [\thrwd d8] g8 [\thrwd d8] |
+  
+  A8 [\thrwd d8] g8 [\thrwd d8] |
+  f8 [\thrwd d8] e8 [\thrwd d8] |
+  \grg d8 [\thrwd d8] c8 [\thrwd d8] |
+  b8 [\thrwd d8] a8 [\thrwd d8] |
+  G8 [\Gthrwd d8] a4 \bar ":|."
+}
+
+dThrowHeavyBroken = {
+  \time 3/4
+  G4. \grd G8 c8 [d8] |
+  a4 G8 [\grd G8] c8 [d8] |
+  b4 G8 [\grd G8] c8 [d8] |
+  c4 G8 [\grd G8] c8 [d8] |
+  \grg d4 G8 [\grd G8] c8 [d8] |
+  
+  e4 G8 [\grd G8] c8 [d8] |
+  f4 G8 [\grd G8] c8 [d8] |
+  g4 G8 [\grd G8] c8 [d8] |
+  A4 G8 [\grd G8] c8 [d8] |
+  \break
+  g4 G8 [\grd G8] c8 [d8] |
+  
+  f4 G8 [\grd G8] c8 [d8] |
+  e4 G8 [\grd G8] c8 [d8] |
+  \grg d4 G8 [\grd G8] c8 [d8] |
+  c4 G8 [\grd G8] c8 [d8] |
+  b4 G8 [\grd G8] c8 [d8] |
+  
+  a4 G8 [\grd G8] c8 [d8] |
+  G4. \grd G8 c8 [d8] \bar "|."
+  \break
+}
+
+dThrowLightBroken = {
+  \time 2/4
+  G4 \grd c8 [d8] |
+  a8 [G8] \grd c8 [d8] |
+  b8 [G8] \grd c8 [d8] |
+  c8 [G8] \grd c8 [d8] |
+  
+  \grg d8 [G8] \grd c8 [d8] |
+  e8 [G8] \grd c8 [d8] |
+  f8 [G8] \grd c8 [d8] |
+  g8 [G8] \grd c8 [d8] |
+  
+  A8 [G8] \grd c8 [d8] |
+  g8 [G8] \grd c8 [d8] |
+  f8 [G8] \grd c8 [d8] |
+  e8 [G8] \grd c8 [d8] |
+  
+  \grg d8 [G8] \grd c8 [d8] |
+  c8 [G8] \grd c8 [d8] |
+  b8 [G8] \grd c8 [d8] |
+  a8 [G8] \grd c8 [d8] |
+  
+  G4 \grd c8 [d8] |
+}
+
 \book {
   \bookOutputName "pipers_helper"  
 \header { 
@@ -1170,6 +1362,160 @@ doubleHAImprovement = {
     }
   \header{
     piece = \markup {\fontsize #3 "Double High A for Improvement"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \halfDoublings
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Half Doublings"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \halfDoublingBroken
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Half Doublings, broken down"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \halfDoublingImprovement
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Half Doublings for Improvement"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \ThumbGracenotes
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Thumb Gracenotes"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \ThumbGraceNotesTwo
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Thumb Gracenotes, Ascending"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \ThumbDoublings
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Thumb Doublings"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \ThumbDoublingBroken
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Thumb Doublings, broken down"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \ThumbDoublingImprovement
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Thumb Doublings for Improvement"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \dThrow
+    }
+  \header{
+    piece = \markup {\fontsize #3 "D Throws"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \dThrowHeavyBroken
+    }
+  \header{
+    piece = \markup {\fontsize #3 "D Throws - Heavy Style, Broken Down"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \dThrowLightBroken
+    }
+  \header{
+    piece = \markup {\fontsize #3 "D Throws - Light Style, Broken Down"}
     opus = ""
     meter = ""
     title = ##f
