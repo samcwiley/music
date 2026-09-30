@@ -1030,6 +1030,7 @@ shakesSlursHitBacksImprovement = {
   g4 \grA f4 g4 \grA f8 [\gre f8] |
   
   A4 g4 A4 g8 [\grf g8] |
+  \break
   \grA g4 \grA f4 g4 \grA f8 [\gre f8] |
   \grg f4 \grg e4 f4 \grg e8 [\gra e8] |
   
@@ -1039,6 +1040,155 @@ shakesSlursHitBacksImprovement = {
   
   e4 \grg b4 e4 \grg b8 [\grG b8] |
   e4 \grg a4 e4 \grg a8 [\grG a8] \bar "|."
+  \break
+}
+
+grips = {
+  \time 2/4
+  e8 [\grip e8] f8 [\grip f8] |
+  g8 [\grip g8] A8 [\grip A8] |
+  g8 [\grip g8] f8 [\grip f8] | 
+  e8 [\grip e8] c8 [\grip c8] |
+  a8 [\grip b8] \grg b8 [\grip c8] \bar ":|."
+}
+
+gripsBroken = {
+  \time 2/4
+  e8 [G8] \grd G8 [e8] |
+  f8 [G8] \grd G8 [f8] |
+  g8 [G8] \grd G8 [g8] |
+  A8 [G8] \grd G8 [A8] |
+  
+  g8 [G8] \grd G8 [g8] |
+  f8 [G8] \grd G8 [f8] |
+  e8 [G8] \grd G8 [e8] |
+  c8 [G8] \grd G8 [c8] |
+  
+  a8 [G8] \grd G8 [b8] |
+  \grg b8 [G8] \grd G8 [c8] \bar "|."
+}
+
+lemluaths = {
+  \time 2/4
+  \grg a8 [\grip e8] \grg b8 [\grip e8] |
+  \grg c8 [\grip e8] \grg d8 [\bgrip e8] |
+  \grg e8 [\grip e8] \grg f8 [\grip e8] |
+  \grA g8 [\grip e8] A8 [\grip e8] |
+  
+  \grA g8 [\grip e8] \grg f8 [\grip e8] |
+  \grg e8 [\grip e8] \grg d8 [\bgrip e8] |
+  \grg c8 [\grip e8] \grg b8 [\grip e8] |
+  \grg a8 [\grip e8] \grg G8 [\hslurd e8] \bar "|."
+}
+
+lemluathsBroken = {
+  \time 2/4 
+  \grg a8 [G8] \grd G8 [e8] |
+  \grg b8 [G8] \grd G8 [e8] |
+  \grg c8 [G8] \grd G8 [e8] |
+  \grg d8 [G8] \grb G8 [e8] |
+  
+  \grg e8 [G8] \grd G8 [e8] |
+  \grg f8 [G8] \grd G8 [e8] |
+  \grA g8 [G8] \grd G8 [e8] |
+  A8 [G8] \grd G8 [e8] |
+  \break
+  
+  \grA g8 [G8] \grd G8 [e8] |
+  \grg f8 [G8] \grd G8 [e8] |
+  \grg e8 [G8] \grd G8 [e8] |
+  \grg d8 [G8] \grb G8 [e8] |
+  
+  \grg c8 [G8] \grd G8 [e8] |
+  \grg b8 [G8] \grd G8 [e8] |
+  \grg a8 [G8] \grd G8 [e8] |
+  \grg G4 \grd G8 [e8] \bar "|."
+}
+
+gripCrossing = {
+  \time 2/4
+  G8 [e8] G8 [e8] |
+  G8 [f8] G8 [f8] |
+  G8 [g8] G8 [g8] |
+  G8 [A8] G8 [A8] |
+  
+  G8 [g8] G8 [g8] |
+  G8 [f8] G8 [f8] |
+  G8 [e8] G8 [e8] \bar "|."
+}
+
+taorluaths = {
+  \time 2/4
+  \grg a8 [\taor a8] \grg b8 [\taor b8] |
+  \grg c8 [\taor c8] \grg b8 [\taor b8] |
+  \grg a8 [\taor a8] \grg a4 \bar ":|."
+  
+  \grg G8 [\Gtaor a8] \grg a8 [\taor a8] |
+  \grg b8 [\taor a8] \grg c8 [\taor a8] |
+  \grg d8 [\btaor a8] \grg e8 [\taor a8] |
+  
+  \grg f8 [\taor a8] \grA g8 [\taor a8] |
+  A8 [\taor a8] \grA g8 [\taor a8] |
+  \grg f8 [\taor a8] \grg e8 [\taor a8] |
+  
+  \grg d8 [\btaor a8] \grg c8 [\taor a8] |
+  \grg b8 [\taor a8] \grg a8 [\taor a8] |
+  \grg G8 [\Gtaor a8] \grg a4 \bar "|."
+}
+
+taorluathsBroken = {
+  \time 3/4
+  \grg a4 G8 [\grd G8] \gre G4 |
+  \grg a4 G8 [\grd G8] \gre a4 |
+  \grg b4 G8 [\grd G8] \gre a4 |
+  \grg c4 G8 [\grd G8] \gre a4 |
+  
+  \grg d4 G8 [\grb G8] \gre a4 |
+  \grg e4 G8 [\grd G8] \gre a4 |
+  \grg f4 G8 [\grd G8] \gre a4 |
+  \grA g4 G8 [\grd G8] \gre a4 |
+  
+  A4 G8 [\grd G8] \gre a4 |
+  \break
+  \grA g4 G8 [\grd G8] \gre a4 |
+  \grg f4 G8 [\grd G8] \gre a4 |
+  \grg e4 G8 [\grd G8] \gre a4 |
+  
+  \grg d4 G8 [\grb G8] \gre a4 |
+  \grg c4 G8 [\grd G8] \gre a4 |
+  \grg b4 G8 [\grd G8] \gre a4 |
+  \grg a4 G8 [\grd G8] \gre a4 |
+  
+  \grg a4 G8 [\grd G8] \gre G4 |
+  \grg G4. \grd G8 \gre a4 |
+  \break
+}
+
+taorluathsImprovement = {
+  \time 4/4
+  e4 \grg a4 G8 [\grd G8] \gre G4 |
+  e4 \grg a4 G8 [\grd G8] \gre a4 |
+  e4 \grg b4 G8 [\grd G8] \gre a4 |
+  
+  e4 \grg c4 G8 [\grd G8] \gre a4 |
+  e4 \grg d4 G8 [\grb G8] \gre a4 |
+  f4 \grg e4 G8 [\grd G8] \gre a4 |
+  
+  g4 \grA f4 G8 [\grd G8] \gre a4 |
+  A4 \grg A4 G8 [\grd G8] \gre a4 |
+  % \break
+  g4 \grA g4 G8 [\grd G8] \gre a4 |
+  
+  g4 \grA f4 G8 [\grd G8] \gre a4 |
+  f4 \grg e4 G8 [\grd G8] \gre a4 |
+  e4 \grg d4 G8 [\grb G8] \gre a4 |
+  
+  e4 \grg c4 G8 [\grd G8] \gre a4 |
+  e4 \grg b4 G8 [\grd G8] \gre a4 |
+  e4 \grg a4 G8 [\grd G8] \gre a4 |
+  
+  e4 \grg a4 G8 [\grd G8] \gre G4 \bar "|."
+  \break
 }
 
 \book {
@@ -1722,6 +1872,118 @@ shakesSlursHitBacksImprovement = {
     }
   \header{
     piece = \markup {\fontsize #3 "Shakes, Slurs, and Hit Backs for Improvement"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \grips
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Grips"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \gripsBroken
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Grips, Broken Down"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \lemluaths
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Lemluaths"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \lemluathsBroken
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Lemluaths, Broken Down"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \gripCrossing
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Lemluaths Crossing"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \taorluaths
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Taorluaths"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \taorluathsBroken
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Taorluaths, Broken Down"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \taorluathsImprovement
+    }
+  \header{
+    piece = \markup {\fontsize #3 "Taorluaths for Improvement"}
     opus = ""
     meter = ""
     title = ##f
