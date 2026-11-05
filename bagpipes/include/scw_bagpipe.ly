@@ -140,6 +140,13 @@ gdre  =  { \pgrace { g32 e32 [ a f a] } }
 
 darem =  { \pgrace { G32 [ d32 G e ] } }
 
+%GDEs, these are so tedious
+gdeG = { \grg G8 [\grd G8 \gre G8] }
+gdea = { \grg a8 [\grd a8 \gre a8] }
+gdeb = { \grg b8 [\grd b8 \gre b8] }
+gdec = { \grg c8 [\grd c8 \gre c8] }
+
+
 
 % ************* for darodo exercise *************
 % ** this just takes a gracenote off so you can expand the embellishment ****
