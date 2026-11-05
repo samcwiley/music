@@ -1191,6 +1191,75 @@ taorluathsImprovement = {
   \break
 }
 
+gGraceNoteExercise = {
+  \time 2/4
+  \grg a8 [b8] \grg a8 [G8] |
+  \grg a8 [b8] \grg c8 [b8] |
+  \grg c8 [d8] \grg c8 [b8] |
+  \grg c8 [b8] \grg a8 [b8] |
+  
+  \grg c8 [b8] \grg c8 [b8] |
+  \grg a8 [b8] \grg G8 [a8] |
+  \grg c8 [a8] \grg b8 [G8] |
+  \grg a8 [b8] \grg a4 \bar ":|"
+  
+  \grg c8 [e8] \grg b8 [d8] |
+  \grg c8 [e8] \grg d8 [f8] |
+  \grg e8 [c8] \grg d8 [b8] |
+  \grg a8 [c8] \grg e8 [c8] |
+  
+  \grg a8 [e8] \grg d8 [f8] |
+  \grg e8 [f8] \grg e8 [c8] |
+  \grg d8 [f8] \grg e8 [c8] |
+  \grg d8 [b8] \grg a4 \bar ":|"
+  
+  \grg a8 [A8] c8 [\grg a8] |
+  \grg b8 [d8] \grg e8 [d8] |
+  \grg c8 [e8] \grg b8 [d8] |
+  \grg c8 [e8] \grg d8 [b8] |
+  
+  \grg f8 [d8] \grg e8 [c8] |
+  \grg d8 [b8] \grg c8 [e8] |
+  \grg c8 [a8] \grg c8 [e8] |
+  \grg d8 [c8] \grg a4 \bar ":|"
+  
+  e8 [\grg c8] d8 [\grg b8] |
+  c8 [\grg a8] c8 [\grg e8] |
+  d8 [\grg f8] e8 [\grg c8] |
+  d8 [\grg b8] c8 [\grg e8] |
+  
+  c8 [\grg a8] b8 [\grg e8] |
+  d8 [\grg b8] c8 [\grg e8] |
+  d8 [\grg f8] e8 [\grg c8] |
+  d8 [\grg b8] \grg a4 \bar ":|"
+}
+
+
+
+GDEExercise = {
+  \time 6/8
+  \grg a8 [\grd a8 \gre a8] \grg c8 [\grd c8 \gre c8] |
+  \grg b8 [\grd b8 \gre b8] \grg c4. |
+  \grg a8 [\grd a8 \gre a8] \grg c8 [\grd c8 \gre c8] |
+  
+  \grg b8 [\grd b8 \gre b8] \grg G4. |
+  \grg a8 [\grd a8 \gre a8] \grg c8 [\grd c8 \gre c8] |
+  \grg b8 [\grd b8 \gre b8] \grg c4. |
+  
+  \grg a8 [\grd a8 \gre a8] \grg b8 [\grd b8 \gre b8] |
+  \grg c8 [\grd c8 \gre c8] \grg b4. \bar ":|"
+  \grg a8 [\grd a8 \gre a8] \grg c8 [\grd c8 \gre c8] |
+  
+  %line four
+  \grg b8 [\grd b8 \gre b8] \grg c8 [\grd c8 \gre c8] |
+  \grg a8 [\grd a8 \gre a8] \grg c8 [\grd c8 \gre c8] |
+  \grg b8 [\grd b8 \gre b8] \grg G8 [\grd G8 \gre G8] |
+  
+  % this is too tedious, macro time
+  \gdeG \gdeG \bar "||"
+  
+}
+
 \book {
   \bookOutputName "pipers_helper"  
 \header { 
@@ -1984,6 +2053,20 @@ taorluathsImprovement = {
     }
   \header{
     piece = \markup {\fontsize #3 "Taorluaths for Improvement"}
+    opus = ""
+    meter = ""
+    title = ##f
+  }  
+}
+
+\score {
+  \new Staff
+    \new Voice {
+      \global
+      \GDEExercise
+    }
+  \header{
+    piece = \markup {\fontsize #3 "G, D, & E Gracenote Exercise"}
     opus = ""
     meter = ""
     title = ##f
