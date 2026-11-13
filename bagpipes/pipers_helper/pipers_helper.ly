@@ -1243,11 +1243,13 @@ GDEExercise = {
   \grg a8 [\grd a8 \gre a8] \grg c8 [\grd c8 \gre c8] |
   
   \grg b8 [\grd b8 \gre b8] \grg G4. |
+  \break
   \grg a8 [\grd a8 \gre a8] \grg c8 [\grd c8 \gre c8] |
   \grg b8 [\grd b8 \gre b8] \grg c4. |
   
   \grg a8 [\grd a8 \gre a8] \grg b8 [\grd b8 \gre b8] |
-  \grg c8 [\grd c8 \gre c8] \grg b4. \bar ":|"
+  \grg c8 [\grd c8 \gre c8] \grg b4. \bar ":|.-b"
+  \break
   \grg a8 [\grd a8 \gre a8] \grg c8 [\grd c8 \gre c8] |
   
   %line four
@@ -1256,8 +1258,34 @@ GDEExercise = {
   \grg b8 [\grd b8 \gre b8] \grg G8 [\grd G8 \gre G8] |
   
   % this is too tedious, macro time
-  \gdeG \gdeG \bar "||"
+  \gdea \gdec |
+  \gdeb \gdec |
+  \gdea \gdeb |
   
+  \gdec \gdea \bar ":|.-b"
+  \break
+  \gdea A4 a8 |
+  \gdeb \gdec |
+  
+  \gdea A4 a8 |
+  \gdeb \gdeG |
+  \gdea A4 a8 |
+  
+  \gdeb \gdec |
+  \gdea A4 G8 |
+  \gdeb \gdea \bar ":|.-b"
+  \break
+  
+  \gdea \grg a8 [\grd c8 \gre c8] |
+  \grg c8 [\grd b8 \gre b8] \grg 8 [\grd c8 \gre c8] |
+  \grg c8 [\grd a8 \gre a8] \grg a8 [\grd c8 \gre c8] |
+  
+  \grg c8 [\grd b8 \gre b8] \grg b8 [\grd G8 \gre G8] |
+  \grg G8 [\grd a8 \gre a8] \grg a8 [\grd c8 \gre c8] |
+  \grg c8 [\grd b8 \gre b8] \grg b8 [\grd c8 \gre c8] |
+  
+  \grg c8 [\grd a8 \gre a8] \grg a8 [\grd b8 \gre b8] | 
+  \grg b8 [\grd c8 \gre c8] \grg c8 [\grd a8 \gre a8] \bar ":|."
 }
 
 \book {
