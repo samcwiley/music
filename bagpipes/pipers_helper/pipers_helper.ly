@@ -1288,6 +1288,116 @@ GDEExercise = {
   \grg b8 [\grd c8 \gre c8] \grg c8 [\grd a8 \gre a8] \bar ":|."
 }
 
+abcDoublings = {
+  \time 2/4
+  \dblc c8 [\gre a8] \dblc c8 [e8] |
+  \dblc c8 [\gre a8] \dblb b8 [\gre G8] |
+  \dblc c8 [\gre a8] \dblc c8 [e8] |
+  \dblb b8 [\gre G8] \dblb b4 |
+  
+  \dblc c8 [\gre a8] \dblc c8 [e8] |
+  \dblc c8 [\gre a8] \dblb b8 [\gre G8] |
+  \dblc c8 [\gre a8] \dblc c8 [e8] |
+  \dblb b8 [\gre G8] \dbla a4 \bar ":|.-b"
+  \break
+  \dbla a8 [A8] \hdblc c8 [\gre a8] |
+  \dblb b8 [\gre G8] \dblb b8 [\gre G8] |
+  \dbla a8 [A8] \hdblc c8 [\gre a8] |
+  \dblb b8 [\gre G8] \dblb b4 |
+  
+  \dbla a8 [A8] \hdblc c8 [\gre a8] |
+  \dblb b8 [g8] \tdblb b8 [\gre G8] |
+  \dblc c8 [\gre a8] \dblc c8 [A8] |
+  \hdblb b8 [\gre G8] \dbla a4 \bar ":|.-b"
+  \break
+  \dblc c8 [\gre a8] \dblc c8 [\gre a8] |
+  \dblb b8 [d8] \dblb b8 [d8] |
+  \dblc c8 [\gre a8] \dblc c8 [\gre a8] |
+  \dblb b8 [\gre G8] \dblb b4 |
+  
+  \dblc c8 [\gre a8] \dblc c8 [e8] |
+  \dblb b8 [\gre G8] \dblb b8 [d8] |
+  \dblc a8 [\grd c8] \dbla a8 [\grd b8] |
+  \dbla a8 [\grd c8] \dbla a4 \bar ":|.-b"
+  \break
+  \dblc c8 [A8] \hdblc c8 [\gre a8] |
+  \dblb b8 [g8] \tdblb b8 [\gre G8] |
+  \dblc c8 [e8] \dblc c8 [\gre a8] |
+  \dblb b8 [d8] \dblb b8 [\gre G8] |
+  
+  \dblc c8 [e8] \dblc c8 [\gre a8] |
+  \dblb b8 [d8] \dbla a8 [\gre G8] |
+  \dblc c8 [e8] \dblb b8 [e8] |
+  \dblb b8 [\gre G8] \dbla a4 \bar ":|.-b"
+}
+
+efdDoublings = {
+  \time 2/4
+  \dblf f8. [a16] \dble e8. [a16] |
+  \dblf f8. [a16] \grg c4 |
+  \dblf f8. [d16] \dble e8. [c16] |
+  \dbld d8. [e16] \dblf f4 |
+  
+  \dblf f8. [a16] \dble e8. [a16] |
+  \dblf f8. [a16] \grg c4 |
+  \dbld d8. [c16] \dbld d8. [e16] |
+  \dblf f4 \dble e4 \bar ":|.-b"
+  \break
+  \dblf f4 \dble e8. [c16] |
+  \dbld d8. [e16] \dblf f4 |
+  \dblf f4 \dble e8. [a16] |
+  \dbld d8. [e16] \dble e4 |
+  
+  \dblf f4 \dble e8. [c16] |
+  \dbld d8. [e16] \dblf f4 |
+  \dbld d8. [c16] \dbld d8. [e16] |
+  \dblf f4 \dble e4 \bar ":|.-b"
+  \break
+  a16 [\dble e8.] a16 [\dblf f8.] |
+  a16 [\dble e8.] a16 [\dbld d8.] |
+  \dble e8. [a16] \dblf f8. [a16] |
+  \dbld d8. [c16] \dbld d4 |
+  
+  a16 [\dble e8.] a16 [\dblf f8.] |
+  a16 [\dble e8.] a16 [\dbld d8.] |
+  \dbld d8. [c16] \dbld d8. [e16] |
+  \dblf f4 \dble e4 \bar ":|.-b" 
+  \break
+  c16 [\dble e8.] c16 [\dblf f8.] |
+  c16 [\dble e8.] b16 [\dbld d8.] |
+  c16 [\dblf f8.] c16 [\dble e8.] |
+  c16 [\dbld d8.] e16 [\dblf f8.] |
+  
+  c16 [\dble e8.] c16 [\dblf f8.] |
+  c16 [\dble e8.] b16 [\dbld d8.] |
+  \dbld d8. [c16] \dbld d8. [e16] |
+  \dblf f4 \dble e4 \bar ":|."
+}
+
+highGAHalfDoublings = {
+  \time 2/4
+  c8. [\dblA A16] \hdblb b8. [\dblg g16] |
+  \hdblc c8. [\dblg g16] \hdbla a8. [\dblA A16] |
+  \hdble e8. [\dblg g16] \dblA A8. [\hdble e16] |
+  \hdblc c8. [\dblg g16] \hdblb b8. [\dblg g16] |
+  
+  \hdblc c8. [\dblA A16] \hdblb b8. [\dblg g16] |
+  \hdblc c8. [\dblg g16] \hdbla a8. [\dblA A16] |
+  \hdble e8. [\dblg g16] \hdblb b8. [\dblA A16] |
+  \hdblc c8. [\dblA A16] \hdbla a4 \bar ":|.-b" 
+  \break
+  \dblA A8. [\hdblc c16] \dblA A8. [\hdblb b16] |
+  \dblA A8. [\hdble e16] \dblg g8. [\dblA A16] |
+  \hdble e8. [\dblg g16] \hdblb b8. [\dblA A16] |
+  \hdblc c8. [\dblA A16] \hdbl b8. [\dblg g16] |
+  
+  \dblA A8. [\hdblc c16] \dblA A8. [\hdblb b16] |
+  \dblA A8. [\hdble e16] \dblg g8. [\dblA A16] |
+  \hdblc c8. [\dblA A16] \dblb b8. [\hdblg g16] |
+  \hdblc c8. [\dblA A16] \hdbla a4 \bar ":|.-b"
+}
+
+
 \book {
   \bookOutputName "pipers_helper"  
 \header { 
