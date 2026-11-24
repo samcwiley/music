@@ -1457,6 +1457,118 @@ echoBeatsExercise = {
   b8 [\grG b8] a8 [\grG a8] \bar ":|."
 }
 
+lemluaths_exercise = {
+  \time 2/4
+  \grg e8. [\grip e16] \grg f8. [\grip f16] |
+  \grg e8. [\grip e16] \grg c8. [\grip e16] |
+  \grg e8. [\grip e16] \grg f8. [\grip f16] |
+  \grg b8. [\grip e16] \grg b8. [\grip e16] |
+  
+  \grg e8. [\grip e16] \grg f8. [\grip f16] |
+  \grg e8. [\grip e16] \grg c8. [\grip e16] |
+  \grg e8. [\grip e16] \grg f8. [\grip f16] |
+  \grg b8. [\grip e16] \grg a4 \bar ":|.-b"
+  \break
+  \grg c8. [\grip e16] A8. [\grip A16] |
+  f8. [\grip f16] \grg c8. [\grip e16] |
+  \grg c8. [\grip e16] A8. [\grip e16] |
+  \grg b8. [\grip e16] \grg f8. [\grip e16] |
+  
+  \grg c8. [\grip e16] A8. [\grip A16] |
+  f8. [\grip f16] \grg c8. [\grip e16] |
+  \grg e8. [\grip e16] \grg f8. [\grip f16] |
+  \grg b8. [\grip e16] \grg a4 \bar ":|.-b"
+  \break
+  \grg a8. [\grip c16] \grg a8. [\grip a16] |
+  \grg b8. [\grip c16] \grg a8. [\grip a16] |
+  \grg c8. [\grip c16] \grg e8. [\grip e16] |
+  \grA g8. [\grip g16] \grA b8. [\grip b16] |
+  
+  \grg a8. [\grip c16] \grg a8. [\grip a16] |
+  \grg b8. [\grip c16] \grg a8. [\grip a16] |
+  \grg e8. [\grip e16] \grg f8. [\grip f16] |
+  \grg b8. [\grip e16] \grg a4 \bar ":|.-b"
+  \break
+  \grg c8. [\grip A16] e8. [\grip g16] |
+  \grA c8. [\grip e16] \grg b8. [\grip e16]
+  A8. [\grip A16] g8. [\grip g16] |
+  \grA f8. [\grip f16] \grg e8. [\grip e16] |
+  
+  \grg c8. [\grip A16] e8. [\grip g16] |
+  \grA c8. [\grip e16] \grg b8. [\grip e16]
+  \grg e8. [\grip e16] \grg f8. [\grip f16] |
+  \grg b8. [\grip e16] \grg a4 \bar ":|.-b"
+  \break
+  
+  \grg a8 [\grip e8] \grg d8 [\bgrip e8] |
+  \grg f8 [\grip e8] \grg d8 [\bgrip e8] |
+  A8 [\grip e8] \grg d8 [\bgrip e8] |
+  \grg b8 [\grip e8] \grg d8 [\bgrip e8] |
+  
+  \grg a8 [\grip e8] \grg d8 [\bgrip e8] |
+  \grA g8 [\grip e8] \grg d8 [\bgrip e8] |
+  \grA g8 [\grip e8] \grg d8 [\bgrip f8] |
+  \grg b8 [\grip e8] \grg a4 \bar ":|.-b"
+  \break
+  A8 [\grip e8] \grg d8 [\bgrip e8] |
+  \grA g8 [\grip e8] \grg d8 [\bgrip e8] |
+  \grg f8 [\grip e8] \grg d8 [\bgrip e8] |
+  \grg d8 [\bgrip e8] \grg b8 [\grip e8] |
+  
+  \grg c8 [\grip e8] \grg d8 [\bgrip e8] |
+  \grg b8 [\grip e8] \grg d8 [\bgrip e8] |
+  \grg f8 [\grip e8] \grg d8 [\bgrip e8] |
+  \grg b8 [\grip e8] \grg a4 \bar ":|."
+}
+
+taorluaths_exercise = {
+  \time 6/8
+  \grg a4 \taor a8 \grg c4 \taor c8 |
+  \grg a4 \taor a8 \grg b4 \taor b8 |
+  \grg c4 \taor c8 \grg a4 \taor a8 |
+  
+  \grg b4 \taor b8 \grg a4 \taor a8 |
+  \grg a4 \taor a8 \grg c4 \taor c8 |
+  \grg a4 \taor a8 \grg b4 \taor b8 |
+  
+  \grg a4 \taor a8 \grg c4 \taor c8 |
+  \grg b4 \taor b8 \grg a4 \taor a8 \bar ":|.-b"
+  \break
+  \grg a4 \taor a8 \grg c4 \taor c8 |
+  
+  \grg a4 \taor a8 \grg b4 \taor a8 |
+  \grg a4 \taor a8 \grg a4 \taor a8 |
+  \grg b4 \taor a8 \grg ar \taor a8 |
+  
+  \grg a4 \taor a8 \grg c4 \taor a8 |
+  \grg a4 \taor a8 \grg b4 \taor a8 |
+  \grg a4 \taor a8 \grg c4 \taor a8 |
+  
+  \grg b4 \taor b8 \grg a4 \taor a8 \bar ":|.-b"
+  \break
+  \grg c4 \taor a8 \grg b4 \taor a8 |
+  \grg e4 \taor a8 \grg d4 \btaor a8 |
+  % line 7
+  \grg f4 \taor a8 \grg d4 \btaor a8 |
+  \grg e4 \taor a8 \grg b4 \taor a8 |
+  \grg c4 \taor a8 \grg b4 \taor a8 |
+  
+  \grg e4 \taor a8 \grg d4 \btaor a8 |
+  \grg a4 \taor a8 \grg c4 \taor c8 |
+  \grg b4 \taor b8 \grg a4 \taor a8 \bar ":|.-b"
+  \break
+  A4 \taor a8 \grA g4 \taor a8 |
+  A4 \taor a8 \grg b4 \taor a8 |
+  A4 \taor a8 \grg e4 \taor a8 |
+  
+  \grg f4 \taor a8 \grg b4 \taor a8 |
+  A4 \taor a8 \grA g4 \taor a8 |
+  A4 \taor a8 \grg b4 \taor a8 |
+  
+  \grg a4 \taor a8 \grg c4 \taor c8 |
+  \grg b4 \taor b8 \grg a4 \taor a8 \bar ":|.-b"
+}
+
 
 \book {
   \bookOutputName "pipers_helper"  
