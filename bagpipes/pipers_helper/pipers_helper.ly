@@ -1397,6 +1397,66 @@ highGAHalfDoublings = {
   \hdblc c8. [\dblA A16] \hdbla a4 \bar ":|.-b"
 }
 
+dthrowExercise = {
+  \time 4/4
+  \thrwd d8 [b8] \thrwd d8 [b8] \grg G8 [b8] \thrwd d8 [b8] |
+  \thrwd d8 [g8] \thrwd d8 [c8] \thrwd d8 [g8] \thrwd d8 [b8] |
+  
+  \thrwd d8 [b8] \thrwd d8 [b8] \G8 [b8] \thrwd d8 [b8] |
+  \thrwd d8 [G8] \wthrwd d8 [b8] \thrwd d8 [G8] \wthrwd d8 [b8] \bar ":|.-b"
+  \break
+  \thrwd d8 [g8] \thrwd d8 [b8] \thrwd d8 [a8] \thrwd d8 [b8] |
+  
+  \thrwd d8 [A8] \thrwd d8 [G8] \wthrwd d8 [b8] \thrwd d8 [a8] |
+  \thrwd d8 [b8] \thrwd d8 [e8] \thrwd d8 [f8] \thrwd d8 [a8] |
+  \thrwd d8 [a8] \thrwd d8 [e8] \thrwd d8 [b8] \thrwd d8 [b8] | \bar ":|.-b"
+  \break
+  \thrwd d4 \slurd d8 [a8] \thrwd d4 \slurd d8 [e8] |
+  \thrwd d4 \slurd d8 [f8] \grg e8 [d8] \grg c8 [e8] |
+  
+  \thrwd d4 \slurd d8 [e8] \thrwd d4 \slurd d8 [e8] |
+  \thrwd d4 \slurd d8 [f8] \grg e8 [c8] \thrwd d4 \bar ":|.-b"
+  \break
+  \thrwd d4 \slurd d8 [f8] A8 [f8] \thrwd d8 [f8] |
+  \thrwd d4 \slurd d8 [c8] \thrwd d4 \slurd d8 [A8] |
+  
+  \thrwd d4 \slurd d8 [f8] g8 [e8] \dblc c8 [e8] |
+  \thrwd d4 \slurd d8 [c8] \thrwd d4 \slurd d4 \bar ":|."
+}
+
+echoBeatsExercise = {
+  \time 2/4
+  c8 [\grG c8] e8 [\gra e8] |
+  b8 [\grG b8] c8 [\grG c8] |
+  d8 [\grc d8] f8 [\gre f8] |
+  e8 [\gra e8] b8 [\grG b8] |
+  
+  c8 [\grG c8] e8 [\gra e8] |
+  b8 [\grG b8] c8 [\grG c8] |
+  d8 [\grG d8] e8 [\gra e8] |
+  b8 [\grG b8] a8 [\grG a8] \bar ":|.-b"
+  \break
+  d8 [\grG d8] f8 [\gre f8] |
+  c8 [\grG c8] e8 [\gra e8] |
+  d8 [\grc d8] A8 [\grg A8] |
+  e8 [\gra e8] b8 [\grG b8] |
+  
+  d8 [\grc d8] A8 [\grg A8] |
+  e8 [\gra e8] c8 [\grG c8] |
+  d8 [\grG d8] f8 [\gre f8] |
+  b8 [\grG b8] a8 [\grG a8] \bar ":|.-b"
+  
+  A8 [\grg A8] e8 [\gra e8] |
+  f8 [\gre f8] c8 [\grG c8] |
+  A8 [\grg A8] e8 [\gra e8] |
+  f8 [\gre f8] b8 [\grG b8] |
+  
+  A8 [\grg A8] e8 [\gra e8] |
+  d8 [\grc d8] c8 [\grG c8] |
+  d8 [\grG d8] f8 [\gre f8] |
+  b8 [\grG b8] a8 [\grG a8] \bar ":|."
+}
+
 
 \book {
   \bookOutputName "pipers_helper"  
